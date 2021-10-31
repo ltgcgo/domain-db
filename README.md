@@ -1,10 +1,10 @@
-# Domain list community
+# Domain list database
 
-This project manages a list of domains, to be used as geosites for routing purpose in Project V.
+This project is pulled from v2fly/domain-list-community, with only its data changed to use several blocklists.
 
 ## Purpose of this project
 
-This project is not opinionated. In other words, it does NOT endorse, claim or imply that a domain should be blocked or proxied. It can be used to generate routing rules on demand.
+Make your V2Ray instance a powerful adblocker.
 
 ## Download links
 
