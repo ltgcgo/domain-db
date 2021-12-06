@@ -4,7 +4,7 @@ This project is pulled from v2fly/domain-list-community, with only its data chan
 
 ## Purpose of this project
 
-Make your V2Ray instance a powerful adblocker.
+Make your V2Ray instance a powerful adblocker, either on servers or on clients.
 
 ## Download links
 
