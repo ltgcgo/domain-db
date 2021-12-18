@@ -85,6 +85,20 @@ domain:googles-analytic.com
 domain:google-analyticals.com
 domain:google-analytics.com
 
+# Huawei (false positives are intended)
+domain:harmonyos.com
+domain:hicloud.com
+domain:hihonor.com
+domain:hisilicon.com
+domain:huawei.com
+domain:huaweicloud.com
+domain:huaweimobileservices.com
+domain:huaweistatic.com
+domain:mindspore.org
+domain:openeuler.org
+domain:opengauss.org
+domain:ostc-eu.org
+
 # LiveHellSerene
 domain:leavehomesafe.gov.hk
 domain:regqr.gov.hk
