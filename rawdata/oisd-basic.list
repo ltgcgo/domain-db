@@ -1,4 +1,19 @@
-# Generated and sanitized by the Validater.
+#    __ __ ____ ____                 
+#   /  (  / ___(    \
+#  (  O )(\___ \) D (
+#   \__(__(____(____/
+#
+#  Title: oisd basic     
+#  Syntax: dblw      
+#  Entries: 34918  
+#  TimeUpdated: 2021-12-18T12:43:28+01:00     
+#  Maintainer: sjhgvr
+#  Expires: 1 day (update frequency)
+#  Homepage: https://oisd.nl
+
+#  All domains ánd their subdomains should be blocked
+#  Entry: "domain:example.com" should block access to "example.com" and "subdomain.example.com" but not "thiseexample.com"
+
 domain:00-gov.cn
 domain:000.gaysexe.free.fr
 domain:00aaa2d81c1d174.com
@@ -34916,3 +34931,4 @@ domain:zzwpsm.cn
 domain:zzxhx.com
 domain:zzxlhwyp.com
 domain:zzyonghao.com
+domain:zzz.pissrip.net

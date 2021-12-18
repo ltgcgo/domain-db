@@ -1,5 +1,29 @@
-# Generated and sanitized by the Validater.
+#
+#  @@          @@@@@@@@      
+#  @@          @@      @@    
+#  @@          @@      @@    
+#  @@          @@     @@     
+#  @@          @@@@@@@@    @     @@@@@  @@@   @@@
+#  @@          @@     @@   @       @   @     @   @
+#  @@          @@      @@  @       @   @  @@ @
+#  @@          @@      @@  @       @   @   @ @   @
+#  @@@@@@@@@@  @@@@@@@@    @@@@@   @    @@@   @@@
+#
+#  L I T E B L O C K     b y     L I G H T I N G A L E
+#
+#   ---------------------------------------------------------------------
+#  |                                                                     |
+#  |  “No vendors should place tracking in their paid customers. Ever.”  |
+#  |                                                                     |
+#  |---------------------------------------------------------------------|
+#  |                      Last updated: 07 Dec 2021                      |
+#   ---------------------------------------------------------------------
+#
+
+# Domain bypass
 domain:domain.name
+
+# General
 domain:hotjar.com
 domain:api-hotjar.com
 domain:hotjar-analytics.com
@@ -8,6 +32,8 @@ domain:freshmarketer.com
 domain:luckyorange.com
 domain:luckyorange.net
 domain:wp.com
+
+# Alibaba
 domain:abtest.alibaba.com
 domain:acookie.alibaba.com
 domain:activities.alibaba.com
@@ -20,6 +46,8 @@ domain:o2o-ad-log-gateway.alibaba.com
 domain:stat.alibaba.com
 domain:tracelog.www.alibaba.com
 domain:ad.alibabacorp.com
+
+# Apple
 domain:metrics.apple.com
 domain:securemetrics.apple.com
 domain:securemetrics.apple.com.cn
@@ -32,12 +60,20 @@ domain:iad.apple.com
 domain:iadcontent.apple.com
 domain:iadcontent-s2.apple.com
 domain:iadsdk.apple.com
+
+# Asus
 domain:ad.aics-asus.com
 domain:ad-cdn.aics-asus.com
 domain:asus.adsame.com
+
+# Bytedance
 domain:data.bytedance.net
 domain:dm.bytedance.com
+
+# Canonical
 domain:metrics.ubuntu.com
+
+# Google
 domain:analytics.googleapis.com
 domain:firebaselogging.googleapis.com
 domain:firebaselogging-pa.googleapis.com
@@ -48,6 +84,8 @@ domain:userlocation.googleapis.com
 domain:googles-analytic.com
 domain:google-analyticals.com
 domain:google-analytics.com
+
+# Huawei (false positives are intended)
 domain:harmonyos.com
 domain:hicloud.com
 domain:hihonor.com
@@ -60,14 +98,22 @@ domain:mindspore.org
 domain:openeuler.org
 domain:opengauss.org
 domain:ostc-eu.org
+
+# LiveHellSerene
 domain:leavehomesafe.gov.hk
 domain:regqr.gov.hk
+
+# MediaTek
 domain:remote.ca.mediatek.com
 domain:remoteca.mediatek.com
 domain:remotekr.mediatek.com
 domain:remotekrs.mediatek.com
 domain:remotetw.mediatek.com
+
+# Meizu
 domain:tongji.meizu.com
+
+# Microsoft
 domain:iamtelemetrycollector.microsoft.com
 domain:telemetry.openpolicyagent.org.reddog.microsoft.com
 domain:telemetry.microsoft.com
@@ -77,11 +123,15 @@ domain:telemetry.microsoft.com.nsatc.net
 domain:oneittelemetry.blob.core.windows.net
 domain:bingads.microsoft.com
 domain:advertising.microsoft.com
+
+# OnePlus
 domain:analytics.oneplus.cn
 domain:click.oneplus.cn
 domain:click.oneplus.com
 domain:open.oneplus.net
 domain:sms-ads.oneplusmobile.com
+
+# Oppo
 domain:ad.oppo.com
 domain:oppo.yidianzixun.com
 domain:ads.oppomobile.com
@@ -91,11 +141,17 @@ domain:adsfs-in.oppomobile.com
 domain:browser.oppomobile.com
 domain:dns.oppomobile.com
 domain:aiscan.ocloud.oppomobile.com
+
+# Qualcomm
 domain:ads.qualcomm.com
 domain:cne.qualcomm.com
 domain:qualcommmedia.com
+
+# Realme
 domain:iot-in-logser.realme.com
 domain:iot-logser.realme.com
+
+# Samsung
 domain:ads.samsung.com
 domain:samsungacr.com
 domain:samsungads.com
@@ -106,6 +162,8 @@ domain:smetrics.samsung.com
 domain:analytics.samsungknox.com
 domain:bigdata.ssp.samsung.com
 domain:analytics-api.samsunghealthcn.com
+
+# Sony
 domain:smetrics.sony.ba
 domain:shqmetrics.sony.com
 domain:adserver1.sonymusiceurope.com
@@ -118,6 +176,8 @@ domain:smetrics.sony.eu
 domain:metrics.sony.jp
 domain:smetrics.sony.jp
 domain:metadata.erabu.sony.tv
+
+# Telegram (fake)
 domain:adx.telegram.com
 domain:asg.telegramfiles.com
 domain:telegramspun.com
@@ -131,7 +191,11 @@ domain:telegram.csproject.org
 domain:telegramcn.org
 domain:telegram-zh.org
 domain:telegram-cloud.us
+
+# T-Mobile
 domain:smetrics.t-mobile.com
+
+# Tracfone
 domain:ads.tracfonewireless.com
 domain:smetrics.v.vodafone.com
 domain:0900-telefonerotik.de
@@ -147,6 +211,8 @@ domain:metrics.vodafone.com.tr
 domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
+
+# Xiaomi
 domain:ad.xiaomi.com
 domain:ad.intl.xiaomi.com
 domain:ad.india.xiaomi.com
@@ -160,10 +226,14 @@ domain:tracking.india.miui.com
 domain:tracking.intl.miui.com
 domain:tracking.rus.miui.com
 domain:tracking.miui.com
+
+# Verizon
 domain:verizon.adhaven.com
 domain:verizontelecom.tt.omtrdc.net
 domain:adshowcase.verizonmedia.com
 domain:adspecs.verizonmedia.com
+
+# Vivo
 domain:adlog.vivo.com.cn
 domain:adreq.vivo.com.cn
 domain:adsdk.vivo.com.cn
@@ -183,6 +253,8 @@ domain:in-adreq.vivoglobal.com
 domain:in-activity.vivoglobal.com
 domain:onelog.vivoglobal.com
 domain:ru-onelog.vivoglobal.com
+
+# Vodafone
 domain:smetrics.v.vodafone.com
 domain:metrics.vodafone.com.eg
 domain:smetrics.vodafone.es

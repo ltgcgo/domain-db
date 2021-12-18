@@ -1,4 +1,18 @@
-# Generated and sanitized by the Validater.
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Ransomware List (NL)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/list/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 1904
+# ------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+# -------------------------------------[INFO]---------------------------------------
+#
+# Ransomware list
+# ------------------------------------[FILTERS]-------------------------------------
 25z5g623wpqpdwis.onion.to
 27c73bq66y4xqoh7.dorfact.at
 27lelchgcvs2wpm7.3lhjyx.top

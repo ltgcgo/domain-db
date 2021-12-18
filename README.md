@@ -6,6 +6,8 @@ This project is pulled from v2fly/domain-list-community, with only its data chan
 
 Make your V2Ray instance a powerful adblocker, either on servers or on clients.
 
+Build status: [![Build dlc.dat](https://github.com/ltgcgo/domain-db/actions/workflows/build.yml/badge.svg)](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat) (Click to download!)
+
 ## Download links
 
 - **dlc.dat**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat)
