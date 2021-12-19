@@ -16,7 +16,7 @@
 #  |  “No vendors should place tracking in their paid customers. Ever.”  |
 #  |                                                                     |
 #  |---------------------------------------------------------------------|
-#  |                      Last updated: 07 Dec 2021                      |
+#  |                      Last updated: 19 Dec 2021                      |
 #   ---------------------------------------------------------------------
 #
 
@@ -73,6 +73,15 @@ domain:dm.bytedance.com
 # Canonical
 domain:metrics.ubuntu.com
 
+# CleverAds
+domain:cleverads.vn
+
+# Facebook
+domain:ads.facebook.com
+domain:analytics.facebook.com
+domain:an.facebook.com
+domain:pixel.facebook.com
+
 # Google
 domain:analytics.googleapis.com
 domain:firebaselogging.googleapis.com
@@ -98,6 +107,10 @@ domain:mindspore.org
 domain:openeuler.org
 domain:opengauss.org
 domain:ostc-eu.org
+
+# LinkedIn
+domain:ads.linkedin.com
+domain:analytics.pointdrive.linkedin.com
 
 # LiveHellSerene
 domain:leavehomesafe.gov.hk
@@ -142,6 +155,14 @@ domain:browser.oppomobile.com
 domain:dns.oppomobile.com
 domain:aiscan.ocloud.oppomobile.com
 
+# Pinterest
+domain:ads.pinterest.com
+domain:ads-dev.pinterest.com
+domain:analytics.pinterest.com
+domain:log.pinterest.com
+domain:trk.pinterest.com
+domain:widgets.pinterest.com
+
 # Qualcomm
 domain:ads.qualcomm.com
 domain:cne.qualcomm.com
@@ -151,17 +172,24 @@ domain:qualcommmedia.com
 domain:iot-in-logser.realme.com
 domain:iot-logser.realme.com
 
+# Reddit
+domain:ads.reddit.com
+domain:d.reddit.com
+domain:events.redditmedia.com
+domain:rereddit.com
+
 # Samsung
 domain:ads.samsung.com
-domain:samsungacr.com
-domain:samsungads.com
-domain:samsungadhub.com
+domain:analytics.samsungknox.com
+domain:analytics-api.samsunghealthcn.com
+domain:bigdata.ssp.samsung.com
 domain:insights.samsung.com
 domain:nmetrics.samsung.com
 domain:smetrics.samsung.com
-domain:analytics.samsungknox.com
-domain:bigdata.ssp.samsung.com
-domain:analytics-api.samsunghealthcn.com
+domain:samsungacr.com
+domain:samsungads.com
+domain:samsungadhub.com
+domain:samsung-com.112.207.net
 
 # Sony
 domain:smetrics.sony.ba
@@ -211,6 +239,11 @@ domain:metrics.vodafone.com.tr
 domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
+
+# Twitter
+domain:ads-api.twitter.com
+domain:ads-twitter.com
+domain:advertising.twitter.com
 
 # Xiaomi
 domain:ad.xiaomi.com
@@ -268,3 +301,18 @@ domain:metrics.vodafone.com.tr
 domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
+
+# Yahoo
+domain:ads.yahoo.com
+domain:adserver.yahoo.com
+domain:ads.yap.yahoo.com
+domain:analytics.tahoo.com
+
+# Yandex
+domain:adsdk.yandex.ru
+domain:analytics.mobile.yandex.net
+domain:appmetrica.yandex.com
+domain:extmaps-api.yandex.net
+
+# YouTube
+domain:ads.youtube.com
