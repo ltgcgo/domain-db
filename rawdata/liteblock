@@ -163,6 +163,9 @@ domain:log.pinterest.com
 domain:trk.pinterest.com
 domain:widgets.pinterest.com
 
+# Qihoo 360
+domain:conf.wifi.360.cn
+
 # Qualcomm
 domain:ads.qualcomm.com
 domain:cne.qualcomm.com
@@ -190,6 +193,10 @@ domain:samsungacr.com
 domain:samsungads.com
 domain:samsungadhub.com
 domain:samsung-com.112.207.net
+
+# Sogou
+domain:config.pinyin.sogou.com
+domain:info.pinyin.sogou.com
 
 # Sony
 domain:smetrics.sony.ba

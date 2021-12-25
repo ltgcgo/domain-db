@@ -104,6 +104,7 @@ domain:analytics.pinterest.com
 domain:log.pinterest.com
 domain:trk.pinterest.com
 domain:widgets.pinterest.com
+domain:conf.wifi.360.cn
 domain:ads.qualcomm.com
 domain:cne.qualcomm.com
 domain:qualcommmedia.com
@@ -124,6 +125,8 @@ domain:samsungacr.com
 domain:samsungads.com
 domain:samsungadhub.com
 domain:samsung-com.112.207.net
+domain:config.pinyin.sogou.com
+domain:info.pinyin.sogou.com
 domain:smetrics.sony.ba
 domain:shqmetrics.sony.com
 domain:adserver1.sonymusiceurope.com
