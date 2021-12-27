@@ -16,7 +16,7 @@
 #  |  “No vendors should place tracking in their paid customers. Ever.”  |
 #  |                                                                     |
 #  |---------------------------------------------------------------------|
-#  |                      Last updated: 19 Dec 2021                      |
+#  |                      Last updated: 27 Dec 2021                      |
 #   ---------------------------------------------------------------------
 #
 
@@ -213,19 +213,33 @@ domain:smetrics.sony.jp
 domain:metadata.erabu.sony.tv
 
 # Telegram (fake)
-domain:adx.telegram.com
 domain:asg.telegramfiles.com
+borsolo.oss-ap-southeast-1.aliyuncs.com
+domain:telegc.com
+domain:telegecn.com
+domain:telegramce.com
+domain:telegramcn.org
+domain:telegramdown-oss-cn-hongkong.aliyuncs.com
+domain:telegramgb.com
+domain:telegrammb.com
+domain:telegramn-cn.com
+domain:telegramqq.com
 domain:telegramspun.com
 domain:telegramsvip.com
-domain:telegram-security.com
-domain:telegram-vip.com
-domain:telegram-org.live
-domain:telegram-top.live
+domain:telegramv.com
+domain:telegramyy.com
 domain:telegram-auth.me
-domain:telegram.csproject.org
-domain:telegramcn.org
-domain:telegram-zh.org
 domain:telegram-cloud.us
+domain:telegram-org.live
+domain:telegram-security.com
+domain:telegram-top.live
+domain:telegram-vip.com
+domain:telegram-zh.org
+domain:telegram.csproject.org
+domain:telegrcn.com
+domain:telegrcn.org
+domain:telegrmcn.com
+domain:telepang.com
 
 # T-Mobile
 domain:smetrics.t-mobile.com

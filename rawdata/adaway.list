@@ -8344,6 +8344,7 @@ adserver.pandora.com
 
 # [pangle.io]
 pangle.io
+api16-access-gcp.pangle.io
 api16-access-sg.pangle.io
 
 # [panickycurtain.com]
@@ -11721,6 +11722,9 @@ tag.widespace.com
 
 # [wigetmedia.com]
 wigetmedia.com
+
+# [wikawika.xyz]
+ad-display.wikawika.xyz
 
 # [wildlifestudios.com]
 cads.wildlifestudios.com
