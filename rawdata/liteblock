@@ -16,7 +16,7 @@
 #  |  “No vendors should place tracking in their paid customers. Ever.”  |
 #  |                                                                     |
 #  |---------------------------------------------------------------------|
-#  |                      Last updated: 27 Dec 2021                      |
+#  |                      Last updated: 20 Sep 2022                      |
 #   ---------------------------------------------------------------------
 #
 
@@ -31,7 +31,8 @@ domain:mouseflow.com
 domain:freshmarketer.com
 domain:luckyorange.com
 domain:luckyorange.net
-domain:wp.com
+domain:stats.wp.com
+domain:media.net
 
 # Alibaba
 domain:abtest.alibaba.com

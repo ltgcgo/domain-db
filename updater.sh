@@ -4,14 +4,14 @@
 mkdir -p rawdata
 mkdir -p data
 cd rawdata
-# Fetch and adapt 1HostsPro
-curl -Lo 1hosts-pro.list https://github.com/badmojr/1Hosts/raw/master/Pro/wildcards.txt
-sed -i "s/\*./domain:/g" 1hosts-pro.list
+# Fetch and adapt 1Hosts-Lite
+curl -Lo 1hosts-lite.list https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/wildcards.txt
+sed -i "s/\*./domain:/g" 1hosts-lite.list
 # Fetch Energized BluGo (replaced Blu due to size concerns)
-curl -Lo energized-blu.list https://energized.pro/bluGo/formats/domains.txt
+#curl -Lo energized-blu.list https://energized.pro/bluGo/formats/domains.txt
 # Fetch and adapt AdAway
-curl -Lo adaway.list https://github.com/AdAway/adaway.github.io/raw/master/hosts.txt
-sed -i "s/127.0.0.1 //g" adaway.list
+#curl -Lo adaway.list https://github.com/AdAway/adaway.github.io/raw/master/hosts.txt
+#sed -i "s/127.0.0.1 //g" adaway.list
 # Fetch and adapt OISD Basic
 curl -Lo oisd-basic.list https://dblw.oisd.nl/basic/
 sed -i "s/\*./domain:/g" oisd-basic.list
