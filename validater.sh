@@ -16,6 +16,13 @@ ls -1 | while IFS= read -r list ; do
 			echo "Redundant rule ignored on line $lineNo."
 		elif [[ "$rule" == "#"* ]]; then
 			echo "Comment skipped on line $lineNo."
+		elif [[ "$rule" == "["* ]]; then
+			echo "Comment skipped on line $lineNo."
+		elif [[ "$rule" == "!"* ]]; then
+			echo "Comment skipped on line $lineNo."
+		elif [[ "$rule" == "||"* ]]; then
+			interm="${rule/||/}"
+			echo "${interm/^/}" >> "$destList"
 		else
 			echo "$rule" >> "$destList"
 		fi
