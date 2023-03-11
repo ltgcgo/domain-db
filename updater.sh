@@ -14,8 +14,7 @@ sed -i "s/\*./domain:/g" 1hosts-lite.list
 #sed -i "s/127.0.0.1 //g" adaway.list
 # Fetch and adapt OISD Basic
 curl -Lo oisd-basic.list https://small.oisd.nl/
-sed -i "s/||/domain:/g" oisd-basic.list
-sed -i "s/^//g" oisd-basic.list
+#sed -i "s/||/domain:/g" oisd-basic.list
 # Fetch BlocklistProject
 curl -Lo blocklistproject-ransomware.list https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
 curl -Lo blocklistproject-scam.list https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt

@@ -21,8 +21,10 @@ ls -1 | while IFS= read -r list ; do
 		elif [[ "$rule" == "!"* ]]; then
 			echo "Comment skipped on line $lineNo."
 		elif [[ "$rule" == "||"* ]]; then
-			interm="${rule/||/}"
+			interm="${rule/||/domain:}"
 			echo "${interm/^/}" >> "$destList"
+		elif [[ "$rule" != "domain:"* ]]; then
+			echo "domain:$rule" >> "$destList"
 		else
 			echo "$rule" >> "$destList"
 		fi

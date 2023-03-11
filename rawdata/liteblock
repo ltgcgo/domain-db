@@ -16,7 +16,7 @@
 #  |  “No vendors should place tracking in their paid customers. Ever.”  |
 #  |                                                                     |
 #  |---------------------------------------------------------------------|
-#  |                      Last updated: 20 Sep 2022                      |
+#  |                      Last updated: 11 Mar 2023                      |
 #   ---------------------------------------------------------------------
 #
 
@@ -96,18 +96,43 @@ domain:google-analyticals.com
 domain:google-analytics.com
 
 # Huawei (false positives are intended)
+domain:abhouses.com
+domain:agconnect.link
+domain:dbank.com
+domain:dbankcdn.cn
+domain:dbankcdn.com
+domain:dbankcloud.cn
+domain:dbankcloud.com
+domain:dbankcloud.eu
+domain:dbankedge.net
 domain:harmonyos.com
 domain:hicloud.com
 domain:hihonor.com
 domain:hisilicon.com
+domain:honor.cn
+domain:huawei.asia
+domain:huawei.cn
 domain:huawei.com
+domain:huawei.com.cn
+domain:huaweiacad.com
 domain:huaweicloud.com
+domain:huaweiief.cn
+domain:huaweiief.com
 domain:huaweimobileservices.com
 domain:huaweistatic.com
+domain:hwccpc.cn
+domain:hwccpc.com
+domain:hwht.cn
+domain:hwocloud.com
+domain:hwtrip.com
 domain:mindspore.org
 domain:openeuler.org
 domain:opengauss.org
 domain:ostc-eu.org
+domain:petalsearch.com
+domain:shanhaitujian.com
+domain:vmall.com
+domain:vmallres.com
 
 # LinkedIn
 domain:ads.linkedin.com
@@ -124,8 +149,13 @@ domain:remotekr.mediatek.com
 domain:remotekrs.mediatek.com
 domain:remotetw.mediatek.com
 
-# Meizu
-domain:tongji.meizu.com
+# Meizu (false positives are intended)
+#domain:tongji.meizu.com
+domain:flyme.cn
+domain:flymeos.com
+domain:meizu.cn
+domain:meizu.com
+domain:mzres.com
 
 # Microsoft
 domain:iamtelemetrycollector.microsoft.com
@@ -145,16 +175,25 @@ domain:click.oneplus.com
 domain:open.oneplus.net
 domain:sms-ads.oneplusmobile.com
 
-# Oppo
-domain:ad.oppo.com
+# Oppo (false positives are intended)
+#domain:ad.oppo.com
 domain:oppo.yidianzixun.com
-domain:ads.oppomobile.com
-domain:adsfs.oppomobile.com
-domain:adsfs-id.oppomobile.com
-domain:adsfs-in.oppomobile.com
-domain:browser.oppomobile.com
-domain:dns.oppomobile.com
-domain:aiscan.ocloud.oppomobile.com
+#domain:ads.oppomobile.com
+#domain:adsfs.oppomobile.com
+#domain:adsfs-id.oppomobile.com
+#domain:adsfs-in.oppomobile.com
+#domain:browser.oppomobile.com
+#domain:dns.oppomobile.com
+#domain:aiscan.ocloud.oppomobile.com
+domain:coloros.com
+domain:keke.cn
+domain:myoppo.com
+domain:nearme.com.cn
+domain:oppo.cn
+domain:oppo.com
+domain:oppomobile.com
+domain:oppopay.com
+domain:opposhop.cn
 
 # Pinterest
 domain:ads.pinterest.com
@@ -213,7 +252,7 @@ domain:metrics.sony.jp
 domain:smetrics.sony.jp
 domain:metadata.erabu.sony.tv
 
-# Telegram (fake)
+# Telegram (fake domains)
 domain:asg.telegramfiles.com
 borsolo.oss-ap-southeast-1.aliyuncs.com
 domain:telegc.com
@@ -267,47 +306,35 @@ domain:ads-api.twitter.com
 domain:ads-twitter.com
 domain:advertising.twitter.com
 
-# Xiaomi
-domain:ad.xiaomi.com
-domain:ad.intl.xiaomi.com
-domain:ad.india.xiaomi.com
-domain:ad.rus.xiaomi.com
-domain:mistat.xiaomi.com
-domain:mistat.intl.xiaomi.com
-domain:mistat.india.xiaomi.com
-domain:mistat.rus.xiaomi.com
-domain:tracking.eu.miui.com
-domain:tracking.india.miui.com
-domain:tracking.intl.miui.com
-domain:tracking.rus.miui.com
-domain:tracking.miui.com
-
 # Verizon
 domain:verizon.adhaven.com
 domain:verizontelecom.tt.omtrdc.net
 domain:adshowcase.verizonmedia.com
 domain:adspecs.verizonmedia.com
 
-# Vivo
-domain:adlog.vivo.com.cn
-domain:adreq.vivo.com.cn
-domain:adsdk.vivo.com.cn
-domain:adsstatic.vivo.com.cn
-domain:ads-marketing-vivofs.vivo.com.cn
-domain:adxlog.vivo.com.cn
-domain:brandadsstatic.vivo.com.cn
-domain:st-ads-jssdk.vivo.com.cn
+# Vivo (false positives are intended)
+#domain:adlog.vivo.com.cn
+#domain:adreq.vivo.com.cn
+#domain:adsdk.vivo.com.cn
+#domain:adsstatic.vivo.com.cn
+#domain:ads-marketing-vivofs.vivo.com.cn
+#domain:adxlog.vivo.com.cn
+#domain:brandadsstatic.vivo.com.cn
+#domain:st-ads-jssdk.vivo.com.cn
 domain:ads-marketing-vivofs.vivo.com.cn.ctdns.cn
-domain:picanalysis.vivo.com.cn
-domain:asia-adlog.vivoglobal.com
-domain:asia-analyzer-appstore.vivoglobal.com
-domain:asia-monitor-stsdk.vivoglobal.com
-domain:ru-monitor-stsdk.vivoglobal.com
-domain:in-adlog.vivoglobal.com
-domain:in-adreq.vivoglobal.com
-domain:in-activity.vivoglobal.com
-domain:onelog.vivoglobal.com
-domain:ru-onelog.vivoglobal.com
+#domain:picanalysis.vivo.com.cn
+#domain:asia-adlog.vivoglobal.com
+#domain:asia-analyzer-appstore.vivoglobal.com
+#domain:asia-monitor-stsdk.vivoglobal.com
+#domain:ru-monitor-stsdk.vivoglobal.com
+#domain:in-adlog.vivoglobal.com
+#domain:in-adreq.vivoglobal.com
+#domain:in-activity.vivoglobal.com
+#domain:onelog.vivoglobal.com
+#domain:ru-onelog.vivoglobal.com
+domain:vivo.com
+domain:vivo.com.cn
+domain:vivoglobal.com
 
 # Vodafone
 domain:smetrics.v.vodafone.com
@@ -323,6 +350,27 @@ domain:metrics.vodafone.com.tr
 domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
+
+# Xiaomi (false positives are intended)
+#domain:ad.xiaomi.com
+#domain:ad.intl.xiaomi.com
+#domain:ad.india.xiaomi.com
+#domain:ad.rus.xiaomi.com
+#domain:mistat.xiaomi.com
+#domain:mistat.intl.xiaomi.com
+#domain:mistat.india.xiaomi.com
+#domain:mistat.rus.xiaomi.com
+#domain:tracking.eu.miui.com
+#domain:tracking.india.miui.com
+#domain:tracking.intl.miui.com
+#domain:tracking.rus.miui.com
+#domain:tracking.miui.com
+domain:mi-img.com
+domain:mi.com
+domain:miui.com
+domain:xiaomi.com
+domain:xiaomi.net
+domain:xiaomiyoupin.com
 
 # Yahoo
 domain:ads.yahoo.com
