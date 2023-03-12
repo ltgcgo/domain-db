@@ -23,7 +23,9 @@ curl -Lo blocklistproject-tracking.list https://blocklistproject.github.io/Lists
 bash ../validater.sh
 # All work done!
 cd ..
-git stage -A
-git commit -m "Automated updater task."
-git push
+if [ "$1" != "nopush" ] ; then
+	git stage -A
+	git commit -m "Automated updater task."
+	git push
+fi
 exit
