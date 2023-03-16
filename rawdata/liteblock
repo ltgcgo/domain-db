@@ -20,21 +20,6 @@
 #   ---------------------------------------------------------------------
 #
 
-# Domain bypass
-domain:domain.name
-
-# General
-domain:hotjar.com
-domain:api-hotjar.com
-domain:hotjar-analytics.com
-domain:mouseflow.com
-domain:freshmarketer.com
-domain:luckyorange.com
-domain:luckyorange.net
-domain:stats.wp.com
-domain:media.net
-domain:adcolony.com
-
 # Alibaba
 domain:abtest.alibaba.com
 domain:acookie.alibaba.com
@@ -48,25 +33,6 @@ domain:o2o-ad-log-gateway.alibaba.com
 domain:stat.alibaba.com
 domain:tracelog.www.alibaba.com
 domain:ad.alibabacorp.com
-
-# Apple
-domain:metrics.apple.com
-domain:securemetrics.apple.com
-domain:securemetrics.apple.com.cn
-domain:supportmetrics.apple.com
-domain:metrics.icloud.com
-domain:metrics.mzstatic.com
-domain:searchads.apple.com
-domain:api-adservices.apple.com
-domain:iad.apple.com
-domain:iadcontent.apple.com
-domain:iadcontent-s2.apple.com
-domain:iadsdk.apple.com
-
-# Asus
-domain:ad.aics-asus.com
-domain:ad-cdn.aics-asus.com
-domain:asus.adsame.com
 
 # Bytedance
 domain:data.bytedance.net
@@ -95,6 +61,192 @@ domain:userlocation.googleapis.com
 domain:googles-analytic.com
 domain:google-analyticals.com
 domain:google-analytics.com
+
+# LinkedIn
+domain:ads.linkedin.com
+domain:analytics.pointdrive.linkedin.com
+
+# Microsoft
+domain:iamtelemetrycollector.microsoft.com
+domain:telemetry.openpolicyagent.org.reddog.microsoft.com
+domain:telemetry.microsoft.com
+domain:telemetry.urs.microsoft.com
+domain:co4.telecommand.telemetry.microsoft.com.akadns.net
+domain:telemetry.microsoft.com.nsatc.net
+domain:oneittelemetry.blob.core.windows.net
+domain:bingads.microsoft.com
+domain:advertising.microsoft.com
+
+# Pinterest
+domain:ads.pinterest.com
+domain:ads-dev.pinterest.com
+domain:analytics.pinterest.com
+domain:log.pinterest.com
+domain:trk.pinterest.com
+domain:widgets.pinterest.com
+
+# Qihoo 360
+domain:conf.wifi.360.cn
+
+# Reddit
+domain:ads.reddit.com
+domain:d.reddit.com
+domain:events.redditmedia.com
+domain:rereddit.com
+
+# Sogou
+domain:config.pinyin.sogou.com
+domain:info.pinyin.sogou.com
+
+# Twitter
+domain:ads-api.twitter.com
+domain:ads-twitter.com
+domain:advertising.twitter.com
+
+# Yahoo
+domain:ads.yahoo.com
+domain:adserver.yahoo.com
+domain:ads.yap.yahoo.com
+domain:analytics.tahoo.com
+
+# Yandex
+domain:adsdk.yandex.ru
+domain:analytics.mobile.yandex.net
+domain:appmetrica.yandex.com
+domain:extmaps-api.yandex.net
+
+# YouTube
+domain:ads.youtube.com
+
+# Domain bypass
+domain:domain.name
+
+# General
+domain:hotjar.com
+domain:api-hotjar.com
+domain:hotjar-analytics.com
+domain:mouseflow.com
+domain:freshmarketer.com
+domain:luckyorange.com
+domain:luckyorange.net
+domain:stats.wp.com
+domain:media.net
+domain:adcolony.com
+
+# CyberDefender Scameter
+domain:cyberdefender.hk
+
+# LiveHellSerene
+domain:leavehomesafe.gov.hk
+domain:regqr.gov.hk
+
+# Telegram (trojanized domains)
+domain:apps-telegram.com
+domain:asg.telegramfiles.com
+domain:biutuan.com
+domain:bjdqw.com
+domain:borsolo.oss-ap-southeast-1.aliyuncs.com
+domain:gdut-lx.com
+domain:othertelegram.com
+domain:pangonid.net
+domain:shxytl.com
+domain:songhuashipin.com
+domain:teleccgram.com
+domain:telegc.com
+domain:telegdam.com
+domain:telegdn.com
+domain:telegecn.com
+domain:teleggam.com
+domain:telegfn.com
+domain:teleghn.com
+domain:telegkn.com
+domain:telegmam.com
+domain:telegmcn.org
+domain:telegmn.com
+domain:telegnm.com
+domain:telegqm.com
+domain:telegram88.xyz
+domain:telegramad.com
+domain:telegraman.com
+domain:telegramapp.vip
+domain:telegramce.com
+domain:telegramcn.org
+domain:telegramdm.com
+domain:telegramdown.com
+domain:telegramdown-oss-cn-hongkong.aliyuncs.com
+domain:telegramgb.com
+domain:telegrammb.com
+domain:telegrammc.com
+domain:telegramn.top
+domain:telegramn-cn.com
+domain:telegramos.org
+domain:telegramqq.com
+domain:telegramrn.com
+domain:telegramspun.com
+domain:telegramst.com
+domain:telegramsvip.com
+domain:telegramv.com
+domain:telegramxiazai.com
+domain:telegramyy.com
+domain:telegramzhcn.org
+domain:telegram-auth.me
+domain:telegram-chian.org.cn
+domain:telegram-chinas.com
+domain:telegram-chinese.xyz
+domain:telegram-cloud.us
+domain:telegram-cn.info
+domain:telegram-cn.vip
+domain:telegram-im.com
+domain:telegram-org.live
+domain:telegram-security.com
+domain:telegram-top.live
+domain:telegram-vip.com
+domain:telegram-zh.org
+domain:telegram.csproject.org
+domain:telegrarcn.com
+domain:telegrcam.org
+domain:telegrcn.com
+domain:telegrcn.org
+domain:telegrfm.com
+domain:telegrhm.com
+domain:telegrkm.com
+domain:telegrlm.com
+domain:telegrmcn.com
+domain:telegrn.com
+domain:telegrzm.com
+domain:telegtn.com
+domain:telegvam.org
+domain:telegvn.com
+domain:telegzam.com
+domain:telegzm.com
+domain:telelgracn.com
+domain:telepang.com
+domain:telergem.org
+domain:tellegram.zone
+domain:tg-telegram.org
+domain:tleagnz.com
+domain:whathappen.net
+domain:zerostory.net
+domain:zliao365.com
+
+# Apple
+domain:metrics.apple.com
+domain:securemetrics.apple.com
+domain:securemetrics.apple.com.cn
+domain:supportmetrics.apple.com
+domain:metrics.icloud.com
+domain:metrics.mzstatic.com
+domain:searchads.apple.com
+domain:api-adservices.apple.com
+domain:iad.apple.com
+domain:iadcontent.apple.com
+domain:iadcontent-s2.apple.com
+domain:iadsdk.apple.com
+
+# Asus
+domain:ad.aics-asus.com
+domain:ad-cdn.aics-asus.com
+domain:asus.adsame.com
 
 # Huawei (false positives are intended)
 domain:abhouses.com
@@ -135,14 +287,6 @@ domain:shanhaitujian.com
 domain:vmall.com
 domain:vmallres.com
 
-# LinkedIn
-domain:ads.linkedin.com
-domain:analytics.pointdrive.linkedin.com
-
-# LiveHellSerene
-domain:leavehomesafe.gov.hk
-domain:regqr.gov.hk
-
 # MediaTek
 domain:remote.ca.mediatek.com
 domain:remoteca.mediatek.com
@@ -157,17 +301,6 @@ domain:flymeos.com
 domain:meizu.cn
 domain:meizu.com
 domain:mzres.com
-
-# Microsoft
-domain:iamtelemetrycollector.microsoft.com
-domain:telemetry.openpolicyagent.org.reddog.microsoft.com
-domain:telemetry.microsoft.com
-domain:telemetry.urs.microsoft.com
-domain:co4.telecommand.telemetry.microsoft.com.akadns.net
-domain:telemetry.microsoft.com.nsatc.net
-domain:oneittelemetry.blob.core.windows.net
-domain:bingads.microsoft.com
-domain:advertising.microsoft.com
 
 # OnePlus
 domain:analytics.oneplus.cn
@@ -196,17 +329,6 @@ domain:oppomobile.com
 domain:oppopay.com
 domain:opposhop.cn
 
-# Pinterest
-domain:ads.pinterest.com
-domain:ads-dev.pinterest.com
-domain:analytics.pinterest.com
-domain:log.pinterest.com
-domain:trk.pinterest.com
-domain:widgets.pinterest.com
-
-# Qihoo 360
-domain:conf.wifi.360.cn
-
 # Qualcomm
 domain:ads.qualcomm.com
 domain:cne.qualcomm.com
@@ -215,12 +337,6 @@ domain:qualcommmedia.com
 # Realme
 domain:iot-in-logser.realme.com
 domain:iot-logser.realme.com
-
-# Reddit
-domain:ads.reddit.com
-domain:d.reddit.com
-domain:events.redditmedia.com
-domain:rereddit.com
 
 # Samsung
 domain:ads.samsung.com
@@ -235,10 +351,6 @@ domain:samsungads.com
 domain:samsungadhub.com
 domain:samsung-com.112.207.net
 
-# Sogou
-domain:config.pinyin.sogou.com
-domain:info.pinyin.sogou.com
-
 # Sony
 domain:smetrics.sony.ba
 domain:shqmetrics.sony.com
@@ -252,35 +364,6 @@ domain:smetrics.sony.eu
 domain:metrics.sony.jp
 domain:smetrics.sony.jp
 domain:metadata.erabu.sony.tv
-
-# Telegram (fake domains)
-domain:asg.telegramfiles.com
-borsolo.oss-ap-southeast-1.aliyuncs.com
-domain:telegc.com
-domain:telegecn.com
-domain:telegramce.com
-domain:telegramcn.org
-domain:telegramdown-oss-cn-hongkong.aliyuncs.com
-domain:telegramgb.com
-domain:telegrammb.com
-domain:telegramn-cn.com
-domain:telegramqq.com
-domain:telegramspun.com
-domain:telegramsvip.com
-domain:telegramv.com
-domain:telegramyy.com
-domain:telegram-auth.me
-domain:telegram-cloud.us
-domain:telegram-org.live
-domain:telegram-security.com
-domain:telegram-top.live
-domain:telegram-vip.com
-domain:telegram-zh.org
-domain:telegram.csproject.org
-domain:telegrcn.com
-domain:telegrcn.org
-domain:telegrmcn.com
-domain:telepang.com
 
 # T-Mobile
 domain:smetrics.t-mobile.com
@@ -301,11 +384,6 @@ domain:metrics.vodafone.com.tr
 domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
-
-# Twitter
-domain:ads-api.twitter.com
-domain:ads-twitter.com
-domain:advertising.twitter.com
 
 # Verizon
 domain:verizon.adhaven.com
@@ -372,18 +450,3 @@ domain:miui.com
 domain:xiaomi.com
 domain:xiaomi.net
 domain:xiaomiyoupin.com
-
-# Yahoo
-domain:ads.yahoo.com
-domain:adserver.yahoo.com
-domain:ads.yap.yahoo.com
-domain:analytics.tahoo.com
-
-# Yandex
-domain:adsdk.yandex.ru
-domain:analytics.mobile.yandex.net
-domain:appmetrica.yandex.com
-domain:extmaps-api.yandex.net
-
-# YouTube
-domain:ads.youtube.com
