@@ -19,6 +19,7 @@ curl -Lo oisd-basic.list https://small.oisd.nl/
 curl -Lo blocklistproject-ransomware.list https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
 curl -Lo blocklistproject-scam.list https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
 curl -Lo blocklistproject-tracking.list https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
+curl -Lo blocklistproject-gambling.list https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
 # Validate every blocklist
 bash ../validater.sh
 # All work done!
