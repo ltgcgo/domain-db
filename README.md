@@ -2,16 +2,18 @@
 
 This project is pulled from v2fly/domain-list-community, with only its data changed to use several blocklists.
 
+This project does not need to appear to be maintained, as almost every update is conducted automatically without need of manual intervention. The blocklists are built twice a week.
+
 ## Purpose of this project
 
-Make your V2Ray instance a powerful adblocker, either on servers or on clients.
+Make your *ray instance a powerful adblocker, either on servers or on clients.
 
 Build status: [![Build dlc.dat](https://github.com/ltgcgo/domain-db/actions/workflows/build.yml/badge.svg)](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat) (Click to download!)
 
 ## Download links
 
-- **dlc.dat**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat)
-- **dlc.dat.sha256sum**：[https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat.sha256sum](https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat.sha256sum)
+- **dlc.dat**：[https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat)
+- **dlc.dat.sha256sum**：[https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat.sha256sum](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat.sha256sum)
 
 ## Usage example
 
@@ -70,8 +72,8 @@ Each file in the `data` directory can be used as a rule in this format: `geosite
 ## Generate `dlc.dat` manually
 
 - Install `golang` and `git`
-- Clone project code: `git clone https://github.com/v2fly/domain-list-community.git`
-- Navigate to project root directory: `cd domain-list-community`
+- Clone project code: `git clone https://github.com/ltgcgo/domain-db.git`
+- Navigate to project root directory: `cd domain-db`
 - Install project dependencies: `go mod download`
 - Generate `dlc.dat` (without `datapath` option means to use domain lists in `data` directory of current working directory):
   - `go run ./`
