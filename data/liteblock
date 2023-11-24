@@ -29,6 +29,12 @@ domain:userlocation.googleapis.com
 domain:googles-analytic.com
 domain:google-analyticals.com
 domain:google-analytics.com
+domain:2mdn.net
+domain:cdn.jwplayer.com
+domain:cdn.jwplatform.com
+domain:entitlements.jwplatform.com
+domain:jwpltx.com
+domain:jwpsrv.com
 domain:ads.linkedin.com
 domain:analytics.pointdrive.linkedin.com
 domain:iamtelemetrycollector.microsoft.com
@@ -63,6 +69,7 @@ domain:analytics.tahoo.com
 domain:adsdk.yandex.ru
 domain:analytics.mobile.yandex.net
 domain:appmetrica.yandex.com
+domain:appmetrica.yandex.ru
 domain:extmaps-api.yandex.net
 domain:ads.youtube.com
 domain:domain.name
@@ -76,7 +83,9 @@ domain:luckyorange.net
 domain:stats.wp.com
 domain:media.net
 domain:adcolony.com
+domain:avlyun.com
 domain:cyberdefender.hk
+domain:scameterplus.com
 domain:leavehomesafe.gov.hk
 domain:regqr.gov.hk
 domain:apps-telegram.com
@@ -308,6 +317,7 @@ domain:metrics.vodafone.com.tr
 domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
+domain:wetype.weixin.qq.com
 domain:mi-img.com
 domain:mi.com
 domain:miui.com

@@ -16,7 +16,7 @@
 #  |  “No vendors should place tracking in their paid customers. Ever.”  |
 #  |                                                                     |
 #  |---------------------------------------------------------------------|
-#  |                      Last updated: 11 Mar 2023                      |
+#  |                      Last updated: 24 Nov 2023                      |
 #   ---------------------------------------------------------------------
 #
 
@@ -61,6 +61,17 @@ domain:userlocation.googleapis.com
 domain:googles-analytic.com
 domain:google-analyticals.com
 domain:google-analytics.com
+
+# JWPlayer
+domain:2mdn.net
+domain:cdn.jwplayer.com
+domain:cdn.jwplatform.com
+#domain:content.jwplatform.com
+domain:entitlements.jwplatform.com
+domain:jwpltx.com
+domain:jwpsrv.com
+#domain:ssl.p.jwpcdn.com
+#domain:videos-cloudfront-usp.jwpsrv.com
 
 # LinkedIn
 domain:ads.linkedin.com
@@ -113,10 +124,12 @@ domain:analytics.tahoo.com
 domain:adsdk.yandex.ru
 domain:analytics.mobile.yandex.net
 domain:appmetrica.yandex.com
+domain:appmetrica.yandex.ru
 domain:extmaps-api.yandex.net
 
 # YouTube
 domain:ads.youtube.com
+
 
 # Domain bypass
 domain:domain.name
@@ -133,12 +146,26 @@ domain:stats.wp.com
 domain:media.net
 domain:adcolony.com
 
-# CyberDefender Scameter
+
+# AVLYun (State-sponsored device state surveillance)
+#domain:miav-cse.avlyun.com
+#domain:miui-fxcse.avlyun.com
+domain:avlyun.com
+
+# CyberDefender Scameter+
+#domain:demo.cyberdefender.hk
+#domain:mail.cyberdefender.hk
+#domain:staff.cyberdefender.hk
+#domain:testing.cyberdefender.hk
+#domain:vpn.cyberdefender.hk
 domain:cyberdefender.hk
+#domain:api.scameterplus.com
+domain:scameterplus.com
 
 # LiveHellSerene
 domain:leavehomesafe.gov.hk
 domain:regqr.gov.hk
+
 
 # Telegram (trojanized domains)
 domain:apps-telegram.com
@@ -228,6 +255,7 @@ domain:tleagnz.com
 domain:whathappen.net
 domain:zerostory.net
 domain:zliao365.com
+
 
 # Apple
 domain:metrics.apple.com
@@ -430,6 +458,9 @@ domain:smetrics.vodafone.com.tr
 domain:metrics.vodafone.co.uk
 domain:smetrics.vodafone.co.uk
 
+# WeChat
+domain:wetype.weixin.qq.com
+
 # Xiaomi (false positives are intended)
 #domain:ad.xiaomi.com
 #domain:ad.intl.xiaomi.com
@@ -444,6 +475,9 @@ domain:smetrics.vodafone.co.uk
 #domain:tracking.intl.miui.com
 #domain:tracking.rus.miui.com
 #domain:tracking.miui.com
+# State surveillance
+#domain:a0.app.xiaomi.com
+#domain:api.installer.xiaomi.com
 domain:mi-img.com
 domain:mi.com
 domain:miui.com
