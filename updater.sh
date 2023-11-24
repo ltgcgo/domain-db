@@ -21,7 +21,7 @@ curl -Lo blocklistproject-scam.list https://blocklistproject.github.io/Lists/alt
 #curl -Lo blocklistproject-tracking.list https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
 curl -Lo blocklistproject-gambling.list https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
 # Fetch Combined Privacy Blocklists
-curl -Lo combinedprivacy.list https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/NoFormatting/mini-cpbl-wildcard-blacklist.txt
+#curl -Lo combinedprivacy.list https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/NoFormatting/mini-cpbl-wildcard-blacklist.txt
 sed -i "s/\*./domain:/g" combinedprivacy.list
 # Validate every blocklist
 bash ../validater.sh
