@@ -1,4 +1,4 @@
-name: Update blocklists, and build dlc.dat
+name: Update & build blocklists
 on:
   push:
     branches:
@@ -22,8 +22,8 @@ jobs:
 
       - name: Set variables
         run: |
-          echo "RELEASE_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y%m%d%H%M%S)" >> $GITHUB_ENV
+          echo "RELEASE_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3+$(date +%d)/10)))z" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3+$(date +%d)/10)))z" >> $GITHUB_ENV
         shell: bash
 
       - name: Checkout codebase
@@ -42,44 +42,18 @@ jobs:
         run: |
           sha256sum dlc.dat > dlc.dat.sha256sum
 
-      - name: Git push assets to "release" branch
-        run: |
-          git init
-          git config --local user.name "github-actions[bot]"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b release
-          git add *.sha256sum dlc.dat dlc.dat.zip dlc.dat.xz
-          git commit -m "${{ env.RELEASE_NAME }}"
-          git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-          git push -f -u origin release
-
-      - name: Create a release
-        id: create_release
-        uses: actions/create-release@v1
+      - name: "Rewrite release"
+        uses: ncipollo/release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.TAG_NAME }}
-          release_name: ${{ env.RELEASE_NAME }}
-          draft: false
+          #artifacts: "pages-build.tar.gz,pages-build-gz.tar,pages-build-br.tar,build-time.txt"
+          artifacts: "dlc.dat,dlc.dat.sha256sum"
+          allowUpdates: true
+          artifactErrorsFailBuild: true
+          makeLatest: true
           prerelease: false
-
-      - name: Upload dlc.dat
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dlc.dat
-          asset_name: dlc.dat
-          asset_content_type: application/octet-stream
-
-      - name: Upload dlc.dat sha256sum
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dlc.dat.sha256sum
-          asset_name: dlc.dat.sha256sum
-          asset_content_type: text/plain
+          removeArtifacts: true
+          replacesArtifacts: true
+          name: ${{ env.RELEASE_NAME }}
+          tag: ${{ env.TAG_NAME }}
