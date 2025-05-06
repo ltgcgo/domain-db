@@ -1,6 +1,6 @@
 # Domain list database
 
-This project is pulled from v2fly/domain-list-community, with only its data changed to use several blocklists.
+This project was pulled and forked from `v2fly/domain-list-community`, with only its data changed to use several blocklists.
 
 This project does not need to appear to be maintained, as almost every update is conducted automatically without need of manual intervention. The blocklists are built twice a week.
 
@@ -12,8 +12,8 @@ Build status: [![Build dlc.dat](https://github.com/ltgcgo/domain-db/actions/work
 
 ## Download links
 
-- **dlc.dat**：[https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat)
-- **dlc.dat.sha256sum**：[https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat.sha256sum](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat.sha256sum)
+- **dlc.dat**：[GitHub Releases](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat)
+- **dlc.dat.sha256sum**：[GitHub Releases](https://github.com/ltgcgo/domain-db/releases/latest/download/dlc.dat.sha256sum)
 
 ## Usage example
 
