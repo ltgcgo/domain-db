@@ -9,6 +9,7 @@ on:
       - "**/*.sh"
   schedule:
     - cron: "30 16 * * 5"
+  workflow_dispatch:
 jobs:
   build:
     name: Build
