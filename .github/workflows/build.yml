@@ -34,24 +34,26 @@ jobs:
           bash updater.sh
           go run ./ --outputdir=./
       - name: Generate dlc.dat sha256 hash
-        run: |
-          sha256sum dlc.dat > dlc.dat.sha256sum
-      - name: Show folder structure
-        run: |
-          sudo apt install tree -y
-          tree -ifl .
-      - name: "Rewrite release"
-        uses: ncipollo/release-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
+        run: "sha256sum dlc.dat > dlc.dat.sha256sum"
+      #- name: Rewrite release
+        #uses: ncipollo/release-action@v1
+        #env:
+          #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        #with:
           #artifacts: "pages-build.tar.gz,pages-build-gz.tar,pages-build-br.tar,build-time.txt"
-          artifacts: "dlc.dat,dlc.dat.sha256sum"
-          allowUpdates: true
-          artifactErrorsFailBuild: true
-          makeLatest: true
-          prerelease: false
-          removeArtifacts: true
-          replacesArtifacts: true
-          name: ${{ env.RELEASE_NAME }}
-          tag: ${{ env.TAG_NAME }}
+          #artifacts: "dlc.dat,dlc.dat.sha256sum"
+          #allowUpdates: true
+          #artifactErrorsFailBuild: true
+          #makeLatest: true
+          #prerelease: false
+          #removeArtifacts: true
+          #replacesArtifacts: true
+          #name: ${{ env.RELEASE_NAME }}
+          #tag: ${{ env.TAG_NAME }}
+      - name: Upload bundled artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'ghp'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
