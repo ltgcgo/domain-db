@@ -20,29 +20,26 @@ jobs:
         uses: actions/setup-go@v2
         with:
           go-version: 1.17
-
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1.1.1
       - name: Set variables
         run: |
           echo "RELEASE_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3+$(date +%d)/10)))z" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3+$(date +%d)/10)))z" >> $GITHUB_ENV
         shell: bash
-
       - name: Checkout codebase
-        uses: actions/checkout@v2
-        with:
-          path: code
-
+        uses: actions/checkout@v4
       - name: Build dlc.dat file
         run: |
-          cd code || exit 1
           bash updater.sh
-          go run ./ --outputdir=../
-          cd ../ && rm -rf code
-
+          go run ./ --outputdir=./
       - name: Generate dlc.dat sha256 hash
         run: |
           sha256sum dlc.dat > dlc.dat.sha256sum
-
+      - name: Show folder structure
+        run: |
+          sudo apt install tree -y
+          tree -ifl .
       - name: "Rewrite release"
         uses: ncipollo/release-action@v1
         env:
