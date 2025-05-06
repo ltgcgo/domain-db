@@ -1,9 +1,10 @@
 #!/bin/bash
 # Update and adapt the domains automatically. Just sweet!
 # Head to the data directory.
-mkdir -p rawdata
+mkdir -p source
+mkdir -p intermediate
 mkdir -p data
-cd rawdata
+cd source
 # Fetch and adapt 1Hosts-Lite
 curl -Lo 1hosts-lite.list https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/wildcards.txt
 sed -i "s/\*./domain:/g" 1hosts-lite.list
@@ -13,16 +14,23 @@ sed -i "s/\*./domain:/g" 1hosts-lite.list
 #curl -Lo adaway.list https://github.com/AdAway/adaway.github.io/raw/master/hosts.txt
 #sed -i "s/127.0.0.1 //g" adaway.list
 # Fetch and adapt OISD Basic
-curl -Lo oisd-basic.list https://small.oisd.nl/
+curl -Lo oisd-basic.list https://small.oisd.nl/domainswild
 #sed -i "s/||/domain:/g" oisd-basic.list
 # Fetch BlocklistProject
-curl -Lo blocklistproject-ransomware.list https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
-curl -Lo blocklistproject-scam.list https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
-#curl -Lo blocklistproject-tracking.list https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
-curl -Lo blocklistproject-gambling.list https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
+#curl -Lo bp-abuse.list https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt
+#curl -Lo bp-ads.list https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt
+#curl -Lo bp-fraud.list https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt
+#curl -Lo bp-gambling.list https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt
+#curl -Lo bp-malware.list https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt
+#curl -Lo bp-phishing.list https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt
+curl -Lo bp-ransomware.list https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
+#curl -Lo bp-redirect.list https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt
+curl -Lo bp-scam.list https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
+curl -Lo bp-tiktok.list https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
+curl -Lo bp-tracking.list https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
 # Fetch Combined Privacy Blocklists
 #curl -Lo combinedprivacy.list https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/NoFormatting/mini-cpbl-wildcard-blacklist.txt
-sed -i "s/\*./domain:/g" combinedprivacy.list
+#sed -i "s/\*./domain:/g" combinedprivacy.list
 # Validate every blocklist
 bash ../validater.sh
 # All work done!

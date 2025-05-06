@@ -1,6 +1,6 @@
 #!/bin/bash
 ls -1 | while IFS= read -r list ; do
-	destList="../data/${list/.list/}"
+	destList="../intermediate/${list/.list/}"
 	echo "Now validating list: $list"
 	echo "# Generated and sanitized by the Validater." > "$destList"
 	lineNo=0
@@ -29,5 +29,6 @@ ls -1 | while IFS= read -r list ; do
 			echo "$rule" >> "$destList"
 		fi
 	done
+	sed -i "s/domain:\*\./domain:/g" "$destList"
 done
 exit
