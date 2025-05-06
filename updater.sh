@@ -33,6 +33,9 @@ curl -Lo bp-tracking.list https://blocklistproject.github.io/Lists/alt-version/t
 #sed -i "s/\*./domain:/g" combinedprivacy.list
 # Validate every blocklist
 bash ../validater.sh
+# Copy lists
+cp -v intermediate/bp-tiktok data/tiktok
+cp -v intermediate/liteblock data/liteblock
 # All work done!
 cd ..
 if [ "$1" != "nopush" ] ; then
