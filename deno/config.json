@@ -1,5 +1,7 @@
 {
 	"tiktok": ["bp-tiktok"],
 	"ir": ["tld-ir", "domains-ir"],
-	"condensed": ["oisd-basic", "1hosts-lite", "bp-ransomware", "bp-scam", "bp-tracking"]
+	"condensed": ["oisd-basic", "1hosts-lite", "bp-ransomware", "bp-scam", "bp-tracking"],
+	"recommend-tor": ["recommend-tor"],
+	"recommend-freedom": ["recommend-freedom"]
 }
