@@ -28,16 +28,15 @@ curl -Lo bp-ransomware.list https://blocklistproject.github.io/Lists/alt-version
 curl -Lo bp-scam.list https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt
 curl -Lo bp-tiktok.list https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt
 curl -Lo bp-tracking.list https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt
-# Fetch Combined Privacy Blocklists
-#curl -Lo combinedprivacy.list https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/NoFormatting/mini-cpbl-wildcard-blacklist.txt
 #sed -i "s/\*./domain:/g" combinedprivacy.list
 # Validate every blocklist
 bash ../validater.sh
 # Copy lists
-cp -v ../intermediate/bp-tiktok ../data/tiktok
+#cp -v ../intermediate/bp-tiktok ../data/tiktok
 cp -v ../intermediate/liteblock ../data/liteblock
 # All work done!
 cd ..
+deno run --allow-read --allow-write deno/dedup.js
 if [ "$1" != "nopush" ] ; then
 	git stage -A
 	git commit -m "Automated updater task."
