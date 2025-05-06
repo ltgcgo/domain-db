@@ -37,8 +37,11 @@ jobs:
         run: |
           bash updater.sh
           go run ./ --outputdir=./
+          chmod 777 dlc.dat
       - name: Generate dlc.dat sha256 hash
         run: "sha256sum dlc.dat > dlc.dat.sha256sum"
+      - name: "Build deployable static pages artifact"
+        run: "bash sh/ghGenerate.sh"
       - name: Rewrite release for Pages
         uses: ncipollo/release-action@v1
         env:
