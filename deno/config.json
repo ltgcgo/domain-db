@@ -1,4 +1,5 @@
 {
+	":ignore-exact": ["whitelist-override"],
 	"tiktok": ["bp-tiktok"],
 	"tld-pinning": ["tld-pinning"],
 	"ir": ["tld-ir", "domains-ir"],
