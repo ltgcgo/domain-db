@@ -1,0 +1,486 @@
+#
+#  @@          @@@@@@@@      
+#  @@          @@      @@    
+#  @@          @@      @@    
+#  @@          @@     @@     
+#  @@          @@@@@@@@    @     @@@@@  @@@   @@@
+#  @@          @@     @@   @       @   @     @   @
+#  @@          @@      @@  @       @   @  @@ @
+#  @@          @@      @@  @       @   @   @ @   @
+#  @@@@@@@@@@  @@@@@@@@    @@@@@   @    @@@   @@@
+#
+#  L I T E B L O C K     b y     L I G H T I N G A L E
+#
+#   ---------------------------------------------------------------------
+#  |                                                                     |
+#  |  “No vendors should place tracking in their paid customers. Ever.”  |
+#  |                                                                     |
+#  |---------------------------------------------------------------------|
+#  |                      Last updated: 24 Nov 2023                      |
+#   ---------------------------------------------------------------------
+#
+
+# Alibaba
+domain:abtest.alibaba.com
+domain:acookie.alibaba.com
+domain:activities.alibaba.com
+domain:activity.alibaba.com
+domain:ads.alibaba.com
+domain:click.alibaba.com
+domain:dmtracking2.alibaba.com
+domain:marketing.alibaba.com
+domain:o2o-ad-log-gateway.alibaba.com
+domain:stat.alibaba.com
+domain:tracelog.www.alibaba.com
+domain:ad.alibabacorp.com
+
+# Bytedance
+domain:data.bytedance.net
+domain:dm.bytedance.com
+
+# Canonical
+domain:metrics.ubuntu.com
+
+# CleverAds
+domain:cleverads.vn
+
+# Facebook
+domain:ads.facebook.com
+domain:analytics.facebook.com
+domain:an.facebook.com
+domain:pixel.facebook.com
+
+# Google
+domain:analytics.googleapis.com
+domain:firebaselogging.googleapis.com
+domain:firebaselogging-pa.googleapis.com
+domain:geomobileservices-pa.googleapis.com
+domain:logging.googleapis.com
+domain:semanticlocation-pa.googleapis.com
+domain:userlocation.googleapis.com
+domain:googles-analytic.com
+domain:google-analyticals.com
+domain:google-analytics.com
+
+# JWPlayer
+domain:2mdn.net
+domain:cdn.jwplayer.com
+domain:cdn.jwplatform.com
+#domain:content.jwplatform.com
+domain:entitlements.jwplatform.com
+domain:jwpltx.com
+domain:jwpsrv.com
+#domain:ssl.p.jwpcdn.com
+#domain:videos-cloudfront-usp.jwpsrv.com
+
+# LinkedIn
+domain:ads.linkedin.com
+domain:analytics.pointdrive.linkedin.com
+
+# Microsoft
+domain:iamtelemetrycollector.microsoft.com
+domain:telemetry.openpolicyagent.org.reddog.microsoft.com
+domain:telemetry.microsoft.com
+domain:telemetry.urs.microsoft.com
+domain:co4.telecommand.telemetry.microsoft.com.akadns.net
+domain:telemetry.microsoft.com.nsatc.net
+domain:oneittelemetry.blob.core.windows.net
+domain:bingads.microsoft.com
+domain:advertising.microsoft.com
+
+# Pinterest
+domain:ads.pinterest.com
+domain:ads-dev.pinterest.com
+domain:analytics.pinterest.com
+domain:log.pinterest.com
+domain:trk.pinterest.com
+domain:widgets.pinterest.com
+
+# Qihoo 360
+domain:conf.wifi.360.cn
+
+# Reddit
+domain:ads.reddit.com
+domain:d.reddit.com
+domain:events.redditmedia.com
+domain:rereddit.com
+
+# Sogou
+domain:config.pinyin.sogou.com
+domain:info.pinyin.sogou.com
+
+# Twitter
+domain:ads-api.twitter.com
+domain:ads-twitter.com
+domain:advertising.twitter.com
+
+# Yahoo
+domain:ads.yahoo.com
+domain:adserver.yahoo.com
+domain:ads.yap.yahoo.com
+domain:analytics.tahoo.com
+
+# Yandex
+domain:adsdk.yandex.ru
+domain:analytics.mobile.yandex.net
+domain:appmetrica.yandex.com
+domain:appmetrica.yandex.ru
+domain:extmaps-api.yandex.net
+
+# YouTube
+domain:ads.youtube.com
+
+
+# Domain bypass
+domain:domain.name
+
+# General
+domain:hotjar.com
+domain:api-hotjar.com
+domain:hotjar-analytics.com
+domain:mouseflow.com
+domain:freshmarketer.com
+domain:luckyorange.com
+domain:luckyorange.net
+domain:stats.wp.com
+domain:media.net
+domain:adcolony.com
+
+
+# AVLYun (State-sponsored device state surveillance)
+#domain:miav-cse.avlyun.com
+#domain:miui-fxcse.avlyun.com
+domain:avlyun.com
+
+# CyberDefender Scameter+
+#domain:demo.cyberdefender.hk
+#domain:mail.cyberdefender.hk
+#domain:staff.cyberdefender.hk
+#domain:testing.cyberdefender.hk
+#domain:vpn.cyberdefender.hk
+domain:cyberdefender.hk
+#domain:api.scameterplus.com
+domain:scameterplus.com
+
+# LiveHellSerene
+domain:leavehomesafe.gov.hk
+domain:regqr.gov.hk
+
+
+# Telegram (trojanized domains)
+domain:apps-telegram.com
+domain:asg.telegramfiles.com
+domain:biutuan.com
+domain:bjdqw.com
+domain:borsolo.oss-ap-southeast-1.aliyuncs.com
+domain:gdut-lx.com
+domain:othertelegram.com
+domain:pangonid.net
+domain:shxytl.com
+domain:songhuashipin.com
+domain:teleccgram.com
+domain:telegc.com
+domain:telegdam.com
+domain:telegdn.com
+domain:telegecn.com
+domain:teleggam.com
+domain:telegfn.com
+domain:teleghn.com
+domain:telegkn.com
+domain:telegmam.com
+domain:telegmcn.org
+domain:telegmn.com
+domain:telegnm.com
+domain:telegqm.com
+domain:telegram88.xyz
+domain:telegramad.com
+domain:telegraman.com
+domain:telegramapp.vip
+domain:telegramce.com
+domain:telegramcn.org
+domain:telegramdm.com
+domain:telegramdown.com
+domain:telegramdown-oss-cn-hongkong.aliyuncs.com
+domain:telegramgb.com
+domain:telegrammb.com
+domain:telegrammc.com
+domain:telegramn.top
+domain:telegramn-cn.com
+domain:telegramos.org
+domain:telegramqq.com
+domain:telegramrn.com
+domain:telegramspun.com
+domain:telegramst.com
+domain:telegramsvip.com
+domain:telegramv.com
+domain:telegramxiazai.com
+domain:telegramyy.com
+domain:telegramzhcn.org
+domain:telegram-auth.me
+domain:telegram-chian.org.cn
+domain:telegram-chinas.com
+domain:telegram-chinese.xyz
+domain:telegram-cloud.us
+domain:telegram-cn.info
+domain:telegram-cn.vip
+domain:telegram-im.com
+domain:telegram-org.live
+domain:telegram-security.com
+domain:telegram-top.live
+domain:telegram-vip.com
+domain:telegram-zh.org
+domain:telegram.csproject.org
+domain:telegrarcn.com
+domain:telegrcam.org
+domain:telegrcn.com
+domain:telegrcn.org
+domain:telegrfm.com
+domain:telegrhm.com
+domain:telegrkm.com
+domain:telegrlm.com
+domain:telegrmcn.com
+domain:telegrn.com
+domain:telegrzm.com
+domain:telegtn.com
+domain:telegvam.org
+domain:telegvn.com
+domain:telegzam.com
+domain:telegzm.com
+domain:telelgracn.com
+domain:telepang.com
+domain:telergem.org
+domain:tellegram.zone
+domain:tg-telegram.org
+domain:tleagnz.com
+domain:whathappen.net
+domain:zerostory.net
+domain:zliao365.com
+
+
+# Apple
+domain:metrics.apple.com
+domain:securemetrics.apple.com
+domain:securemetrics.apple.com.cn
+domain:supportmetrics.apple.com
+domain:metrics.icloud.com
+domain:metrics.mzstatic.com
+domain:searchads.apple.com
+domain:api-adservices.apple.com
+domain:iad.apple.com
+domain:iadcontent.apple.com
+domain:iadcontent-s2.apple.com
+domain:iadsdk.apple.com
+
+# Asus
+domain:ad.aics-asus.com
+domain:ad-cdn.aics-asus.com
+domain:asus.adsame.com
+
+# Huawei (false positives are intended)
+domain:abhouses.com
+domain:agconnect.link
+domain:dbank.com
+domain:dbankcdn.cn
+domain:dbankcdn.com
+domain:dbankcloud.cn
+domain:dbankcloud.com
+domain:dbankcloud.eu
+domain:dbankedge.net
+domain:harmonyos.com
+domain:hicloud.com
+domain:hihonor.com
+domain:hisilicon.com
+domain:honor.cn
+domain:huawei.asia
+domain:huawei.cn
+domain:huawei.com
+domain:huawei.com.cn
+domain:huaweiacad.com
+domain:huaweicloud.com
+domain:huaweiief.cn
+domain:huaweiief.com
+domain:huaweimobileservices.com
+domain:huaweistatic.com
+domain:hwccpc.cn
+domain:hwccpc.com
+domain:hwht.cn
+domain:hwocloud.com
+domain:hwtrip.com
+domain:mindspore.org
+domain:openeuler.org
+domain:opengauss.org
+domain:ostc-eu.org
+domain:petalsearch.com
+domain:shanhaitujian.com
+domain:vmall.com
+domain:vmallres.com
+
+# MediaTek
+domain:remote.ca.mediatek.com
+domain:remoteca.mediatek.com
+domain:remotekr.mediatek.com
+domain:remotekrs.mediatek.com
+domain:remotetw.mediatek.com
+
+# Meizu (false positives are intended)
+#domain:tongji.meizu.com
+domain:flyme.cn
+domain:flymeos.com
+domain:meizu.cn
+domain:meizu.com
+domain:mzres.com
+
+# OnePlus
+domain:analytics.oneplus.cn
+domain:click.oneplus.cn
+domain:click.oneplus.com
+domain:open.oneplus.net
+domain:sms-ads.oneplusmobile.com
+
+# Oppo (false positives are intended)
+#domain:ad.oppo.com
+domain:oppo.yidianzixun.com
+#domain:ads.oppomobile.com
+#domain:adsfs.oppomobile.com
+#domain:adsfs-id.oppomobile.com
+#domain:adsfs-in.oppomobile.com
+#domain:browser.oppomobile.com
+#domain:dns.oppomobile.com
+#domain:aiscan.ocloud.oppomobile.com
+domain:coloros.com
+domain:keke.cn
+domain:myoppo.com
+domain:nearme.com.cn
+domain:oppo.cn
+domain:oppo.com
+domain:oppomobile.com
+domain:oppopay.com
+domain:opposhop.cn
+
+# Qualcomm
+domain:ads.qualcomm.com
+domain:cne.qualcomm.com
+domain:qualcommmedia.com
+
+# Realme
+domain:iot-in-logser.realme.com
+domain:iot-logser.realme.com
+
+# Samsung
+domain:ads.samsung.com
+domain:analytics.samsungknox.com
+domain:analytics-api.samsunghealthcn.com
+domain:bigdata.ssp.samsung.com
+domain:insights.samsung.com
+domain:nmetrics.samsung.com
+domain:smetrics.samsung.com
+domain:samsungacr.com
+domain:samsungads.com
+domain:samsungadhub.com
+domain:samsung-com.112.207.net
+
+# Sony
+domain:smetrics.sony.ba
+domain:shqmetrics.sony.com
+domain:adserver1.sonymusiceurope.com
+domain:metrics.jp.sonystyle.com
+domain:smetrics.sony-asia.com
+domain:smetrics.sony-europe.com
+domain:metrics.sony.de
+domain:smetrics.sony.ee
+domain:smetrics.sony.eu
+domain:metrics.sony.jp
+domain:smetrics.sony.jp
+domain:metadata.erabu.sony.tv
+
+# T-Mobile
+domain:smetrics.t-mobile.com
+
+# Tracfone
+domain:ads.tracfonewireless.com
+domain:smetrics.v.vodafone.com
+domain:0900-telefonerotik.de
+domain:metrics.vodafone.com.eg
+domain:smetrics.vodafone.es
+domain:smetrics.vodafone.com.gh
+domain:smetrics.vodafone.gr
+domain:smetrics.vodafonecu.gr
+domain:metrics.vodafone.hu
+domain:smetrics.vodafone.in
+domain:smetrics.vodafone.qa
+domain:metrics.vodafone.com.tr
+domain:smetrics.vodafone.com.tr
+domain:metrics.vodafone.co.uk
+domain:smetrics.vodafone.co.uk
+
+# Verizon
+domain:verizon.adhaven.com
+domain:verizontelecom.tt.omtrdc.net
+domain:adshowcase.verizonmedia.com
+domain:adspecs.verizonmedia.com
+
+# Vivo (false positives are intended)
+#domain:adlog.vivo.com.cn
+#domain:adreq.vivo.com.cn
+#domain:adsdk.vivo.com.cn
+#domain:adsstatic.vivo.com.cn
+#domain:ads-marketing-vivofs.vivo.com.cn
+#domain:adxlog.vivo.com.cn
+#domain:brandadsstatic.vivo.com.cn
+#domain:st-ads-jssdk.vivo.com.cn
+domain:ads-marketing-vivofs.vivo.com.cn.ctdns.cn
+#domain:picanalysis.vivo.com.cn
+#domain:asia-adlog.vivoglobal.com
+#domain:asia-analyzer-appstore.vivoglobal.com
+#domain:asia-monitor-stsdk.vivoglobal.com
+#domain:ru-monitor-stsdk.vivoglobal.com
+#domain:in-adlog.vivoglobal.com
+#domain:in-adreq.vivoglobal.com
+#domain:in-activity.vivoglobal.com
+#domain:onelog.vivoglobal.com
+#domain:ru-onelog.vivoglobal.com
+domain:vivo.com
+domain:vivo.com.cn
+domain:vivoglobal.com
+
+# Vodafone
+domain:smetrics.v.vodafone.com
+domain:metrics.vodafone.com.eg
+domain:smetrics.vodafone.es
+domain:smetrics.vodafone.com.gh
+domain:smetrics.vodafone.gr
+domain:smetrics.vodafonecu.gr
+domain:metrics.vodafone.hu
+domain:smetrics.vodafone.in
+domain:smetrics.vodafone.qa
+domain:metrics.vodafone.com.tr
+domain:smetrics.vodafone.com.tr
+domain:metrics.vodafone.co.uk
+domain:smetrics.vodafone.co.uk
+
+# WeChat
+domain:wetype.weixin.qq.com
+
+# Xiaomi (false positives are intended)
+#domain:ad.xiaomi.com
+#domain:ad.intl.xiaomi.com
+#domain:ad.india.xiaomi.com
+#domain:ad.rus.xiaomi.com
+#domain:mistat.xiaomi.com
+#domain:mistat.intl.xiaomi.com
+#domain:mistat.india.xiaomi.com
+#domain:mistat.rus.xiaomi.com
+#domain:tracking.eu.miui.com
+#domain:tracking.india.miui.com
+#domain:tracking.intl.miui.com
+#domain:tracking.rus.miui.com
+#domain:tracking.miui.com
+# State surveillance
+#domain:a0.app.xiaomi.com
+#domain:api.installer.xiaomi.com
+domain:mi-img.com
+domain:mi.com
+domain:miui.com
+domain:xiaomi.com
+domain:xiaomi.net
+domain:xiaomiyoupin.com
