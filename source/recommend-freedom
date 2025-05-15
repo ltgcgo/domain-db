@@ -1,7 +1,14 @@
 # This is a list of domains recommended to be accessed via Freedom.
 
-domain:api-id.streamlabs.com
+domain:cygames.jp
 
 domain:api.pony.land
 
-domain:cygames.jp
+domain:api-id.streamlabs.com
+
+domain:assets.twitch.tv
+domain:ext-twitch.tv
+domain:ttvnw.net
+
+domain:i.ytimg.com
+domain:gstatic.com
