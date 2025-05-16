@@ -3,7 +3,7 @@
 	"tiktok": ["bp-tiktok"],
 	"tld-pinning": ["tld-pinning"],
 	"ir": ["tld-ir", "domains-ir"],
-	"condensed": ["oisd-basic", "1hosts-lite", "bp-ransomware", "bp-scam", "bp-tracking"],
+	"condensed": ["oisd-basic", "1hosts-lite", "bp-ransomware", "bp-scam"],
 	"recommend-tor": ["recommend-tor"],
 	"recommend-freedom": ["recommend-freedom"]
 }
