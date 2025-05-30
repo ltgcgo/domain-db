@@ -1,14 +1,45 @@
 # This is a list of domains recommended to be accessed via Freedom.
 
+# BlueSky
+domain:cdn.bsky.app
+#domain:web-cdn.bsky.app
+
+# CyGames
 domain:cygames.jp
 
+# Hooves
+#domain:cdn.hooves.social
+
+# Picarto
+domain:live.eu-west1.picarto.tv
+domain:live.us-west1.picarto.tv
+domain:live.us-east1.picarto.tv
+
+# Pony Land
 domain:api.pony.land
 
-domain:api-id.streamlabs.com
+# Reddit
+domain:external-preview.redd.it
+domain:i.redd.it
+domain:preview.redd.it
+domain:redditmedia.com
+domain:v.redd.it
 
+# StreamLabs
+#domain:api-id.streamlabs.com
+
+# Twitch
 domain:assets.twitch.tv
+domain:contribute.live-video.net
 domain:ext-twitch.tv
+domain:global-contribute.live-video.net
 domain:ttvnw.net
 
+# Twitter
+domain:abs.twimg.com
+domain:abs-0.twimg.com
+domain:pbs.twimg.com
+
+# YouTube
 domain:i.ytimg.com
-domain:gstatic.com
+domain:rtmp.youtube.com
