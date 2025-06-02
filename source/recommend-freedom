@@ -40,6 +40,12 @@ domain:abs.twimg.com
 domain:abs-0.twimg.com
 domain:pbs.twimg.com
 
+# WebEx
+domain:prod.infra.webex.com
+domain:reachable.webex.com
+domain:svc.webex.com
+domain:wbx2.com
+
 # YouTube
 domain:i.ytimg.com
 domain:rtmp.youtube.com
