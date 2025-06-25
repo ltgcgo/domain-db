@@ -77,6 +77,10 @@ domain:jwpsrv.com
 domain:ads.linkedin.com
 domain:analytics.pointdrive.linkedin.com
 
+# MyPureCloud
+domain:api.mypurecloud.de
+domain:apps.mypurecloud.de
+
 # Microsoft
 domain:iamtelemetrycollector.microsoft.com
 domain:telemetry.openpolicyagent.org.reddog.microsoft.com
@@ -130,7 +134,6 @@ domain:extmaps-api.yandex.net
 # YouTube
 domain:ads.youtube.com
 
-
 # Domain bypass
 domain:domain.name
 
@@ -145,7 +148,6 @@ domain:luckyorange.net
 domain:stats.wp.com
 domain:media.net
 domain:adcolony.com
-
 
 # AVLYun (State-sponsored device state surveillance)
 #domain:miav-cse.avlyun.com
@@ -165,7 +167,6 @@ domain:scameterplus.com
 # LiveHellSerene
 domain:leavehomesafe.gov.hk
 domain:regqr.gov.hk
-
 
 # Telegram (trojanized domains)
 domain:apps-telegram.com
@@ -256,7 +257,6 @@ domain:whathappen.net
 domain:zerostory.net
 domain:zliao365.com
 
-
 # Apple
 domain:metrics.apple.com
 domain:securemetrics.apple.com
@@ -338,6 +338,7 @@ domain:open.oneplus.net
 domain:sms-ads.oneplusmobile.com
 
 # Oppo (false positives are intended)
+domain:allawntech.com
 #domain:ad.oppo.com
 domain:oppo.yidianzixun.com
 #domain:ads.oppomobile.com
@@ -348,6 +349,8 @@ domain:oppo.yidianzixun.com
 #domain:dns.oppomobile.com
 #domain:aiscan.ocloud.oppomobile.com
 domain:coloros.com
+domain:heytapdownload.com
+domain:heytapmobi.com
 domain:keke.cn
 domain:myoppo.com
 domain:nearme.com.cn
@@ -430,18 +433,18 @@ domain:adspecs.verizonmedia.com
 #domain:st-ads-jssdk.vivo.com.cn
 domain:ads-marketing-vivofs.vivo.com.cn.ctdns.cn
 #domain:picanalysis.vivo.com.cn
-#domain:asia-adlog.vivoglobal.com
-#domain:asia-analyzer-appstore.vivoglobal.com
-#domain:asia-monitor-stsdk.vivoglobal.com
-#domain:ru-monitor-stsdk.vivoglobal.com
-#domain:in-adlog.vivoglobal.com
-#domain:in-adreq.vivoglobal.com
-#domain:in-activity.vivoglobal.com
-#domain:onelog.vivoglobal.com
-#domain:ru-onelog.vivoglobal.com
-domain:vivo.com
+domain:asia-adlog.vivoglobal.com
+domain:asia-analyzer-appstore.vivoglobal.com
+domain:asia-monitor-stsdk.vivoglobal.com
+domain:ru-monitor-stsdk.vivoglobal.com
+domain:in-adlog.vivoglobal.com
+domain:in-adreq.vivoglobal.com
+domain:in-activity.vivoglobal.com
+domain:onelog.vivoglobal.com
+domain:ru-onelog.vivoglobal.com
+#domain:vivo.com
 domain:vivo.com.cn
-domain:vivoglobal.com
+#domain:vivoglobal.com
 
 # Vodafone
 domain:smetrics.v.vodafone.com
@@ -462,25 +465,25 @@ domain:smetrics.vodafone.co.uk
 domain:wetype.weixin.qq.com
 
 # Xiaomi (false positives are intended)
-#domain:ad.xiaomi.com
-#domain:ad.intl.xiaomi.com
-#domain:ad.india.xiaomi.com
-#domain:ad.rus.xiaomi.com
-#domain:mistat.xiaomi.com
-#domain:mistat.intl.xiaomi.com
-#domain:mistat.india.xiaomi.com
-#domain:mistat.rus.xiaomi.com
-#domain:tracking.eu.miui.com
-#domain:tracking.india.miui.com
-#domain:tracking.intl.miui.com
-#domain:tracking.rus.miui.com
-#domain:tracking.miui.com
+domain:ad.xiaomi.com
+domain:ad.intl.xiaomi.com
+domain:ad.india.xiaomi.com
+domain:ad.rus.xiaomi.com
+domain:mistat.xiaomi.com
+domain:mistat.intl.xiaomi.com
+domain:mistat.india.xiaomi.com
+domain:mistat.rus.xiaomi.com
+domain:tracking.eu.miui.com
+domain:tracking.india.miui.com
+domain:tracking.intl.miui.com
+domain:tracking.rus.miui.com
+domain:tracking.miui.com
 # State surveillance
-#domain:a0.app.xiaomi.com
-#domain:api.installer.xiaomi.com
-domain:mi-img.com
-domain:mi.com
-domain:miui.com
-domain:xiaomi.com
-domain:xiaomi.net
+domain:a0.app.xiaomi.com
+domain:api.installer.xiaomi.com
+#domain:mi-img.com
+#domain:mi.com
+#domain:miui.com
+#domain:xiaomi.com
+#domain:xiaomi.net
 domain:xiaomiyoupin.com

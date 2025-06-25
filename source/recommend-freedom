@@ -1,14 +1,33 @@
 # This is a list of domains recommended to be accessed via Freedom.
 
+# BBC
+domain:ichef.bbci.co.uk
+domain:static.files.bbci.co.uk
+
+# BFM Play
+domain:static-cdn.tv.sfr.net
+
 # BlueSky
 domain:cdn.bsky.app
 #domain:web-cdn.bsky.app
 
+# Canal+
+domain:bran-media.canalplus.pro
+domain:thumb.canalplus.pro
+
 # CyGames
 domain:cygames.jp
 
+# France.tv
+domain:medias.france.tv
+domain:static.francetv.fr
+
 # Hooves
-#domain:cdn.hooves.social
+domain:cdn.hooves.social
+
+# M6+
+domain:assets-bundle.6cloud.fr
+domain:images-fio.6play.fr
 
 # Picarto
 domain:live.eu-west1.picarto.tv
@@ -27,6 +46,9 @@ domain:v.redd.it
 
 # StreamLabs
 #domain:api-id.streamlabs.com
+
+# TF1
+domain:photos.tf1.fr
 
 # Twitch
 domain:assets.twitch.tv
