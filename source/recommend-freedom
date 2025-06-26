@@ -29,6 +29,10 @@ domain:cdn.hooves.social
 domain:assets-bundle.6cloud.fr
 domain:images-fio.6play.fr
 
+# Molotov.tv
+domain:fusion.molotov.tv
+domain:images.molotov.tv
+
 # Picarto
 domain:live.eu-west1.picarto.tv
 domain:live.us-west1.picarto.tv

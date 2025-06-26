@@ -16,6 +16,9 @@ domain:canal-plus.net
 domain:canalplus.com
 domain:canalplus.pro
 
+# L'Équipe
+domain:lequipe.fr
+
 # France.tv
 domain:france.tv
 domain:francetelevisions.fr
@@ -27,6 +30,10 @@ domain:6cloud.fr
 domain:6play.fr
 domain:m6.fr
 domain:th2-edge-01.cdn.bedrock.tech
+
+# Molotov.tv
+domain:molotov.tv
+domain:vod-molotov.akamaized.net
 
 # TF1
 domain:tf1.fr

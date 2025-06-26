@@ -8,3 +8,8 @@ domain:bbc-reporting-api.app
 domain:emp.bbci.co.uk
 domain:iplayer-web.files.bbci.co.uk
 domain:nav.files.bbci.co.uk
+
+# ITV
+domain:http-inputs-itv.splunkcloud.com
+domain:itv.com
+domain:itvpnp.live.ott.irdeto.com
