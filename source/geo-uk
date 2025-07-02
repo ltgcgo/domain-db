@@ -7,9 +7,51 @@ domain:bbc.co.uk
 domain:bbc-reporting-api.app
 domain:emp.bbci.co.uk
 domain:iplayer-web.files.bbci.co.uk
+domain:md.bbci.co.uk
 domain:nav.files.bbci.co.uk
+domain:vod-dash-uk-live.akamaized.net
+
+# Blaze
+domain:blaze-fast-inside-crime-ssai.simplestreamcdn.com
+domain:blaze-fast-mystery-tv-ssai.simplestreamcdn.com
+domain:live-blaze-ssai.simplestreamcdn.com
+
+# Channel 4
+domain:ak-jos-c4assets-com.akamaized.net
+domain:c4.eme.lp.aws.redbeemedia.com
+domain:channel4.com
+domain:csm-e-c4ukdash-eb.tls1.yospace.com
+domain:csm-e-cec4prdaeuw1lived-03f19a99f7d64572a.bln1.yospace.com
+domain:dash.c4assets.com
+
+# Channel 5
+domain:akadash0.akamaized.net
+domain:channel5.com
+
+# GREAT! Player
+domain:great-player.com
+domain:video-great.suggestedtv.com
 
 # ITV
 domain:http-inputs-itv.splunkcloud.com
 domain:itv.com
 domain:itvpnp.live.ott.irdeto.com
+
+# Pop UK
+domain:pop-player.com
+domain:vod-pop-ssai.simplestreamcdn.com
+
+# Sky UK (incomplete)
+domain:cdn.skycdp.com
+#domain:edge.api.brightcove.com
+domain:prod.boltdns.net
+domain:sky.com
+domain:skynews.com
+
+# STV
+domain:csm-e-stv-eb.tls1.yospace.com
+domain:stvedi.akamaized.net
+domain:stvwest.akamaized.net
+
+# Uncategorized UK delivery service
+domain:jmp2.uk

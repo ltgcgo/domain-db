@@ -1,6 +1,9 @@
 # TLD
 #domain:fr
 
+# Arte
+#domain:artesimulcast.akamaized.net
+
 # BFM Play
 domain:bfmtv.bct.nextradiotv.com
 domain:pfd.sfr.net
@@ -15,6 +18,9 @@ domain:canal-plus.com
 domain:canal-plus.net
 domain:canalplus.com
 domain:canalplus.pro
+
+# DailyMotion CDN PoP
+domain:eu-north-1a.cf.dmcdn.net
 
 # L'Équipe
 domain:lequipe.fr
@@ -37,3 +43,7 @@ domain:vod-molotov.akamaized.net
 
 # TF1
 domain:tf1.fr
+
+# TV5 Monde
+#domain:tv5monde.com
+#domain:tv5mondeplus.com

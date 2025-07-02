@@ -15,12 +15,19 @@ domain:cdn.bsky.app
 domain:bran-media.canalplus.pro
 domain:thumb.canalplus.pro
 
+# Channel 4
+domain:ic.c4assets.com
+
 # CyGames
 domain:cygames.jp
 
 # France.tv
 domain:medias.france.tv
 domain:static.francetv.fr
+
+# GREAT! Player
+domain:image-cdn.suggestedtv.com
+domain:static.core.one.accedo.tv
 
 # Hooves
 domain:cdn.hooves.social
@@ -47,6 +54,13 @@ domain:i.redd.it
 domain:preview.redd.it
 domain:redditmedia.com
 domain:v.redd.it
+
+# SimpleStream
+domain:thumbnails.simplestreamcdn.com
+domain:vod-popmax-fastly.simplestreamcdn.com
+
+# Sky UK
+domain:e3.365dm.com
 
 # StreamLabs
 #domain:api-id.streamlabs.com

@@ -20,6 +20,10 @@
 #   ---------------------------------------------------------------------
 #
 
+# Adobe
+domain:adobedtm.com
+domain:omtrdc.net
+
 # Alibaba
 domain:abtest.alibaba.com
 domain:acookie.alibaba.com
@@ -34,6 +38,21 @@ domain:stat.alibaba.com
 domain:tracelog.www.alibaba.com
 domain:ad.alibabacorp.com
 
+# Braze
+domain:sdk.au-01.braze.com
+domain:sdk.fra-01.braze.eu
+domain:sdk.fra-02.braze.eu
+domain:sdk.iad-01.braze.com
+domain:sdk.iad-02.braze.com
+domain:sdk.iad-03.braze.com
+domain:sdk.iad-04.braze.com
+domain:sdk.iad-05.braze.com
+domain:sdk.iad-06.braze.com
+domain:sdk.iad-07.braze.com
+domain:sdk.iad-08.braze.com
+domain:sdk.id-01.braze.com
+domain:sdk.us-10.braze.com
+
 # Bytedance
 domain:data.bytedance.net
 domain:dm.bytedance.com
@@ -41,14 +60,26 @@ domain:dm.bytedance.com
 # Canonical
 domain:metrics.ubuntu.com
 
+# CBSI
+domain:cbsi.com
+
+# Channel 4
+domain:monitor.channel4.com
+
 # CleverAds
 domain:cleverads.vn
+
+# Conviva
+domain:cws.conviva.com
 
 # Facebook
 domain:ads.facebook.com
 domain:analytics.facebook.com
 domain:an.facebook.com
 domain:pixel.facebook.com
+
+# Freewheel
+domain:v.fwmrm.net
 
 # Google
 domain:analytics.googleapis.com
@@ -73,9 +104,15 @@ domain:jwpsrv.com
 #domain:ssl.p.jwpcdn.com
 #domain:videos-cloudfront-usp.jwpsrv.com
 
+# Kanter Media
+domain:2cnt.net
+
 # LinkedIn
 domain:ads.linkedin.com
 domain:analytics.pointdrive.linkedin.com
+
+# mPulse
+domain:go-mpulse.net
 
 # MyPureCloud
 domain:api.mypurecloud.de
@@ -113,6 +150,9 @@ domain:rereddit.com
 domain:config.pinyin.sogou.com
 domain:info.pinyin.sogou.com
 
+# TiqCDN
+domain:tags.tiqcdn.com
+
 # Twitter
 domain:ads-api.twitter.com
 domain:ads-twitter.com
@@ -134,6 +174,7 @@ domain:extmaps-api.yandex.net
 # YouTube
 domain:ads.youtube.com
 
+
 # Domain bypass
 domain:domain.name
 
@@ -148,6 +189,7 @@ domain:luckyorange.net
 domain:stats.wp.com
 domain:media.net
 domain:adcolony.com
+
 
 # AVLYun (State-sponsored device state surveillance)
 #domain:miav-cse.avlyun.com
@@ -167,6 +209,7 @@ domain:scameterplus.com
 # LiveHellSerene
 domain:leavehomesafe.gov.hk
 domain:regqr.gov.hk
+
 
 # Telegram (trojanized domains)
 domain:apps-telegram.com
@@ -256,6 +299,7 @@ domain:tleagnz.com
 domain:whathappen.net
 domain:zerostory.net
 domain:zliao365.com
+
 
 # Apple
 domain:metrics.apple.com

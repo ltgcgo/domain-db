@@ -1,0 +1,51 @@
+# ARD
+domain:mcdn.one.ard.de
+
+# ARTE
+domain:artesimulcast.akamaized.net
+
+# Kika
+domain:kikageohls.akamaized.net
+
+# MDR Fernsehen
+domain:mdrtvsnhls.akamaized.net
+
+# Nickelodeon Deutschland
+domain:0d26a00dfbb1.airspace-cdn.cbsivideo.com
+domain:unilivemtveu-lh.akamaihd.net
+
+# OK54
+domain:s.ok54.de
+
+# Parlamentsfernsehen
+domain:bttv-live-z.r53.cdn.tv1.eu
+
+# Radio Bremen Fernsehen
+domain:rbhlslive.akamaized.net
+
+# RBB Fernsehen
+domain:rbb-hls-berlin.akamaized.net
+domain:rbb-hls-brandenburg.akamaized.net
+
+# SWR Fernsehen
+domain:swrbwd-hls.akamaized.net
+domain:swrrpd-hls.akamaized.net
+
+# Tagesschau
+#domain:tagesschau.akamaized.net
+
+# Unserding
+domain:srde.akamaized.net
+
+# WDR Fernsehen
+domain:wdrlokalzeit.akamaized.net
+
+# Wir24TV
+domain:edge14.vedge.infomaniak.com
+
+# ZDF
+domain:zdf-hls-15.akamaized.net
+domain:zdf-hls-16.akamaized.net
+domain:zdf-hls-17.akamaized.net
+domain:zdf-hls-18.akamaized.net
+domain:zdf-hls-19.akamaized.net
