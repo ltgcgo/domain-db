@@ -21,7 +21,7 @@
 #
 
 # Adobe
-domain:adobedtm.com
+#domain:adobedtm.com
 domain:omtrdc.net
 
 # Alibaba
@@ -38,6 +38,9 @@ domain:stat.alibaba.com
 domain:tracelog.www.alibaba.com
 domain:ad.alibabacorp.com
 
+# BBC
+domain:r.bbci.co.uk
+
 # Braze
 domain:sdk.au-01.braze.com
 domain:sdk.fra-01.braze.eu
@@ -52,6 +55,9 @@ domain:sdk.iad-07.braze.com
 domain:sdk.iad-08.braze.com
 domain:sdk.id-01.braze.com
 domain:sdk.us-10.braze.com
+
+# Brightcove
+domain:metrics.brightcove.com
 
 # Bytedance
 domain:data.bytedance.net
