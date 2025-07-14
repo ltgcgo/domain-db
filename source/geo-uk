@@ -53,5 +53,11 @@ domain:csm-e-stv-eb.tls1.yospace.com
 domain:stvedi.akamaized.net
 domain:stvwest.akamaized.net
 
+# UKTV
+domain:u.co.uk
+domain:uktv-res.cloudinary.com
+domain:uktv.co.uk
+domain:uktvapi.co.uk
+
 # Uncategorized UK delivery service
 domain:jmp2.uk
