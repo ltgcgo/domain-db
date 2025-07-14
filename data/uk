@@ -6,6 +6,7 @@ domain:bbc-reporting-api.app
 domain:bbc.co.uk
 domain:blaze-fast-inside-crime-ssai.simplestreamcdn.com
 domain:blaze-fast-mystery-tv-ssai.simplestreamcdn.com
+domain:blaze.tv
 domain:c4.eme.lp.aws.redbeemedia.com
 domain:cdn.skycdp.com
 domain:channel4.com
@@ -30,6 +31,10 @@ domain:sky.com
 domain:skynews.com
 domain:stvedi.akamaized.net
 domain:stvwest.akamaized.net
+domain:u.co.uk
+domain:uktv-res.cloudinary.com
+domain:uktv.co.uk
+domain:uktvapi.co.uk
 domain:video-great.suggestedtv.com
 domain:vod-dash-uk-live.akamaized.net
 domain:vod-pop-ssai.simplestreamcdn.com

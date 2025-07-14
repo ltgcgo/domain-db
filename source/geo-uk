@@ -14,7 +14,12 @@ domain:vod-dash-uk-live.akamaized.net
 # Blaze
 domain:blaze-fast-inside-crime-ssai.simplestreamcdn.com
 domain:blaze-fast-mystery-tv-ssai.simplestreamcdn.com
+domain:blaze.tv
 domain:live-blaze-ssai.simplestreamcdn.com
+
+# Brightcove Video Cloud
+domain:edge.api.brightcove.com
+domain:prod.boltdns.net
 
 # Channel 4
 domain:ak-jos-c4assets-com.akamaized.net
@@ -41,17 +46,19 @@ domain:itvpnp.live.ott.irdeto.com
 domain:pop-player.com
 domain:vod-pop-ssai.simplestreamcdn.com
 
-# Sky UK (incomplete)
-domain:cdn.skycdp.com
-#domain:edge.api.brightcove.com
-domain:prod.boltdns.net
-domain:sky.com
-domain:skynews.com
-
-# STV
+# Scotland TV
 domain:csm-e-stv-eb.tls1.yospace.com
+domain:stv-p9pj4a2tauch.akamaized.net
+domain:stv-vod.brightcovecdn.com
+domain:stv.tv
 domain:stvedi.akamaized.net
+domain:stvplc.tv
 domain:stvwest.akamaized.net
+
+# Sky UK (incomplete)
+#domain:edge.api.brightcove.com
+#domain:prod.boltdns.net
+domain:skynews.com
 
 # UKTV
 domain:u.co.uk

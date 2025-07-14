@@ -4,6 +4,9 @@
 domain:ichef.bbci.co.uk
 domain:static.files.bbci.co.uk
 
+# Blaze
+domain:domain:blazeuk.s3.eu-west-2.amazonaws.com
+
 # BFM Play
 domain:static-cdn.tv.sfr.net
 
@@ -20,6 +23,9 @@ domain:ic.c4assets.com
 
 # CyGames
 domain:cygames.jp
+
+# Le Figaro
+domain:static.lefigaro.fr
 
 # France.tv
 domain:medias.france.tv
@@ -40,6 +46,9 @@ domain:images-fio.6play.fr
 domain:fusion.molotov.tv
 domain:images.molotov.tv
 
+# NRJ
+domain:img.nrj.fr
+
 # Picarto
 domain:live.eu-west1.picarto.tv
 domain:live.us-west1.picarto.tv
@@ -47,6 +56,10 @@ domain:live.us-east1.picarto.tv
 
 # Pony Land
 domain:api.pony.land
+
+# Radio Télévision Luxembourg
+domain:images.rtl.fr
+domain:static.rtl.fr
 
 # Reddit
 domain:external-preview.redd.it
@@ -64,6 +77,9 @@ domain:e3.365dm.com
 
 # StreamLabs
 #domain:api-id.streamlabs.com
+
+# STV
+domain:images.stv.tv
 
 # TF1
 domain:photos.tf1.fr

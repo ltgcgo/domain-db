@@ -1,11 +1,17 @@
 # TLD
 #domain:fr
 
-# Arte
-#domain:artesimulcast.akamaized.net
-
 # BFM Play
 domain:bfmtv.bct.nextradiotv.com
+domain:d18uxd7zigjv4y.cloudfront.net
+domain:d21wdmv2hqydbt.cloudfront.net
+domain:d2mt8for1pddy4.cloudfront.net
+domain:d36bxc1bknkxrk.cloudfront.net
+domain:d3bb0xy15a32jc.cloudfront.net
+domain:d3w0weunrynif9.cloudfront.net
+domain:ddt6vdovkiskj.cloudfront.net
+domain:dvvyqyxwlc4tn.cloudfront.net
+domain:dwsx9zc2hxqhl.cloudfront.net
 domain:pfd.sfr.net
 domain:rmcbfmplay.com
 #domain:lil2-xdn-edge-vod00.pfd.sfr.net
@@ -21,9 +27,51 @@ domain:canalplus.pro
 
 # DailyMotion CDN PoP
 domain:eu-north-1a.cf.dmcdn.net
+domain:eu-north-1b.cf.dmcdn.net
+domain:live-b2.cf.dmcdn.net
+
+# Equidia
+domain:equidia-event01-p32-cdn.hexaglobe.net
+domain:equidia-live2-p-api.hexaglobe.net
+domain:equidia-racing1-p-api.hexaglobe.net
+domain:equidia-racing2-p-api.hexaglobe.net
+domain:equidia-racing3-p-api.hexaglobe.net
+domain:equidia-racing4-p-api.hexaglobe.net
+domain:equidia-racing5-p-api.hexaglobe.net
+domain:equidia-racing6-p-api.hexaglobe.net
+domain:equidia-racing7-p-api.hexaglobe.net
+domain:equidia-racing8-p-api.hexaglobe.net
+domain:equidia-racinggalop-p-api.hexaglobe.net
+domain:equidia-racingmag-p-api.hexaglobe.net
+domain:equidia-racingtrot-p-api.hexaglobe.net
+domain:equidia-region01-p-api.hexaglobe.net
+domain:equidia-region02-p-api.hexaglobe.net
+domain:equidia-region03-p-api.hexaglobe.net
+domain:equidia-region04-p-api.hexaglobe.net
+domain:equidia-region05-p-api.hexaglobe.net
+domain:equidia-region06-p-api.hexaglobe.net
+domain:equidia-region07-p-api.hexaglobe.net
+domain:equidia-region08-p-api.hexaglobe.net
+domain:equidia-region09-p-api.hexaglobe.net
+domain:equidia-region10-p-api.hexaglobe.net
+domain:equidia-region11-p-api.hexaglobe.net
+domain:equidia-region12-p-api.hexaglobe.net
+domain:equidia-region13-p-api.hexaglobe.net
+domain:equidia-region14-p-api.hexaglobe.net
+domain:equidia-region15-p-api.hexaglobe.net
+domain:equidia-region16-p-api.hexaglobe.net
+domain:equidia-region17-p-api.hexaglobe.net
+domain:equidia-region18-p-api.hexaglobe.net
+domain:equidia-region19-p-api.hexaglobe.net
+domain:equidia-region20-p-api.hexaglobe.net
+domain:equidia.fr
 
 # L'Équipe
 domain:lequipe.fr
+
+# Le Figaro
+domain:lefigaro.fr
+domain:figarotv-live.freecaster.com
 
 # France.tv
 domain:france.tv
@@ -40,6 +88,14 @@ domain:th2-edge-01.cdn.bedrock.tech
 # Molotov.tv
 domain:molotov.tv
 domain:vod-molotov.akamaized.net
+
+# NRJ
+domain:nrj-play.fr
+domain:nrj.fr
+domain:nrjaudio.fm
+
+# Radio Télévision Luxembourg
+domain:rtl.fr
 
 # TF1
 domain:tf1.fr
