@@ -9,7 +9,7 @@ domain:ichef.bbci.co.uk
 domain:static.files.bbci.co.uk
 
 # Blaze
-domain:domain:blazeuk.s3.eu-west-2.amazonaws.com
+domain:blazeuk.s3.eu-west-2.amazonaws.com
 
 # BFM Play
 domain:static-cdn.tv.sfr.net
