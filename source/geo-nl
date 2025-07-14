@@ -1,0 +1,59 @@
+# TLD
+#domain:nl
+
+# AT5
+domain:at5.nl
+domain:d11lnfpmek70tc.cloudfront.net
+domain:nlpo.stream.vip
+
+# NH
+domain:nhnieuws.nl
+
+# NLZIET
+domain:nlziet.nl
+
+# NPO
+domain:npo-drm-gateway.samgcloud.nepworldwide.nl
+domain:npo.nl
+domain:npodoc.nl
+domain:npoplayer.nl
+domain:npostart.nl
+domain:vpro.nl
+
+# Omroep Brabant
+domain:omroepbrabant.bbvms.com
+domain:omroepbrabant.nl
+domain:d1ctz4dshc0ubt.cloudfront.net
+
+# Omroep Flevoland
+domain:omroepflevoland.nl
+domain:d5ms27yy6exnf.cloudfront.net
+
+# RTV
+domain:omroepzeeland.bbvms.com
+domain:omroepzeeland.nl
+domain:d3isaxd2t6q8zm.cloudfront.net
+domain:oost.nl
+domain:regiogroei.cloud
+domain:rijnmond.bbvms.com
+domain:rijnmond.nl
+domain:rtvdrenthe.bbvms.com
+domain:rtvdrenthe.nl
+domain:rtvnoord.bbvms.com
+domain:rtvnoord.nl
+domain:rtvoost.bbvms.com
+domain:rtvutrecht.bbvms.com
+domain:rtvutrecht.nl
+domain:s-4f1e89d0.b.cdn.bluebillywig.com
+domain:s-5d1a2a32.b.cdn.bluebillywig.com
+domain:s-aefc8d5f.b.cdn.bluebillywig.com
+domain:s-d718818d.b.cdn.bluebillywig.com
+
+# Streamgate
+domain:cdn.streamgate.nl
+#domain:npo-nl-ams-p23-am5.cdn.streamgate.nl
+#domain:npo-nl-ams-p24-am3.cdn.streamgate.nl
+
+# videoland
+domain:videoland.com
+domain:videoland.nl

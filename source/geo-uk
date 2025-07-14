@@ -11,12 +11,6 @@ domain:md.bbci.co.uk
 domain:nav.files.bbci.co.uk
 domain:vod-dash-uk-live.akamaized.net
 
-# Blaze
-domain:blaze-fast-inside-crime-ssai.simplestreamcdn.com
-domain:blaze-fast-mystery-tv-ssai.simplestreamcdn.com
-domain:blaze.tv
-domain:live-blaze-ssai.simplestreamcdn.com
-
 # Brightcove Video Cloud
 domain:edge.api.brightcove.com
 domain:prod.boltdns.net

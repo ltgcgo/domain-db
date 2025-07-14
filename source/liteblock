@@ -38,6 +38,9 @@ domain:stat.alibaba.com
 domain:tracelog.www.alibaba.com
 domain:ad.alibabacorp.com
 
+# Arte
+domain:y1.arte.tv
+
 # BBC
 domain:r.bbci.co.uk
 
@@ -134,6 +137,10 @@ domain:telemetry.microsoft.com.nsatc.net
 domain:oneittelemetry.blob.core.windows.net
 domain:bingads.microsoft.com
 domain:advertising.microsoft.com
+
+# NPO
+domain:atconnect.npo.nl
+domain:topspin.npo.nl
 
 # Pinterest
 domain:ads.pinterest.com

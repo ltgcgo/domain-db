@@ -1,0 +1,9 @@
+# TLD
+#domain:no
+
+# NRK
+domain:nrk-live-no.akamaized.net
+domain:nrk-live-world.akamaized.net
+#regexp:^nrk-od-(no|world)-\d\d.akamaized.net$
+#regexp:^nrkod\d\d-cdn0-47115-odedge[0-1].dna.contentdelivery.net$
+domain:nrk.no

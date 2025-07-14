@@ -6,8 +6,11 @@
 	"grp-frde": ["grp-frde"],
 	"grp-ukie": ["grp-ukie"],
 	"de": ["geo-de"],
-	"fr": ["geo-fr"],
-	"uk": ["geo-uk"],
+	"fr": ["geo-fr", "grp-frde"],
+	"uk": ["geo-uk", "grp-ukie"],
+	"at": ["geo-at"],
+	"nl": ["geo-nl"],
+	"no": ["geo-no"],
 	"condensed": ["oisd-basic", "1hosts-lite", "bp-ransomware", "bp-scam"],
 	"recommend-tor": ["recommend-tor"],
 	"recommend-freedom": ["recommend-freedom"]

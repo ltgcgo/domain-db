@@ -1,5 +1,9 @@
 # This is a list of domains recommended to be accessed via Freedom.
 
+# Arte
+domain:api-cdn.arte.tv
+domain:static-cdn.arte.tv
+
 # BBC
 domain:ichef.bbci.co.uk
 domain:static.files.bbci.co.uk
