@@ -28,12 +28,39 @@ domain:ic.c4assets.com
 # CyGames
 domain:cygames.jp
 
+# Epic Games
+domain:cdn1.epicgames.com
+domain:cdn2.epicgames.com
+domain:cdn3.epicgames.com
+domain:cdn.unrealengine.com
+domain:cdn1.unrealengine.com
+domain:cdn2.unrealengine.com
+domain:cdn3.unrealengine.com
+domain:cloudflare.epicgamescdn.com
+domain:cms-assets.unrealengine.com
+domain:components.unrealengine.com
+domain:download.epicgames.com
+domain:download1.epicgames.com
+domain:download2.epicgames.com
+domain:download3.epicgames.com
+domain:download4.epicgames.com
+domain:epicgames-download1.akamaized.net
+domain:fastly-download.epicgames.com
+domain:media-cdn.epicgames.com
+domain:static-assets-prod.epicgames.com
+
 # Le Figaro
 domain:static.lefigaro.fr
 
 # France.tv
 domain:medias.france.tv
 domain:static.francetv.fr
+
+# GoG
+domain:gog-cdn-fastly.gog.com
+domain:gog-statics.com
+domain:images.gog.com
+domain:items.gog.com
 
 # GREAT! Player
 domain:image-cdn.suggestedtv.com
@@ -78,6 +105,11 @@ domain:vod-popmax-fastly.simplestreamcdn.com
 
 # Sky UK
 domain:e3.365dm.com
+
+# Steam
+domain:steamcontent.com
+domain:steamstatic.com
+domain:steamusercontent.com
 
 # StreamLabs
 #domain:api-id.streamlabs.com
