@@ -99,6 +99,9 @@ domain:preview.redd.it
 domain:redditmedia.com
 domain:v.redd.it
 
+# S4C
+domain:cms.v3.s4c.cymru
+
 # SimpleStream
 domain:thumbnails.simplestreamcdn.com
 domain:vod-popmax-fastly.simplestreamcdn.com

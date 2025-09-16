@@ -7,6 +7,10 @@ domain:live-blaze-ssai.simplestreamcdn.com
 # NOW TV
 domain:nowtv.com
 
+# S4C
+domain:s4c.cymru
+domain:s4c-cdn.co.uk
+
 # Sky
 domain:cdn.skycdp.com
 domain:go.sky.com

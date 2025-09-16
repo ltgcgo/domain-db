@@ -9,7 +9,13 @@ domain:emp.bbci.co.uk
 domain:iplayer-web.files.bbci.co.uk
 domain:md.bbci.co.uk
 domain:nav.files.bbci.co.uk
+domain:ve-cmaf-push-uk-live.akamaized.net
+domain:ve-uhd-push-uk-live.akamaized.net
 domain:vod-dash-uk-live.akamaized.net
+domain:vs-cmaf-push-uk-live.akamaized.net
+domain:vs-cmaf-pushb-uk-live.akamaized.net
+domain:vs-hls-push-uk-live.akamaized.net
+domain:vs-hls-pushb-uk-live.akamaized.net
 
 # Brightcove Video Cloud
 domain:edge.api.brightcove.com
