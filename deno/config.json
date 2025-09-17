@@ -3,6 +3,7 @@
 	"tiktok": ["bp-tiktok"],
 	"tld-pinning": ["tld-pinning"],
 	"ir": ["tld-ir", "domains-ir"],
+	"grp-de": ["grp-de"],
 	"grp-frde": ["grp-frde"],
 	"grp-ukie": ["grp-ukie"],
 	"de": ["geo-de"],

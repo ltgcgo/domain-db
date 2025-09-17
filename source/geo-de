@@ -1,51 +1,117 @@
-# ARD
-domain:mcdn.one.ard.de
+# ARD - Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten - der Bundesrepublik Deutschland
+domain:ard.de
+domain:ardalpha.de
+domain:ard-mcdn.de
+domain:ardaudiothek.de
+domain:ardmediathek.de
+domain:daserste.de
+domain:mcdn-a.akamaihd.net
+domain:rndfnk.com
+#domain:mcdn-one.ard.de
+#domain:mcdn.one.ard.de
+#domain:programm-api.ard.de
+#domain:sand-hub.ard.de
 
-# ARTE
-domain:artesimulcast.akamaized.net
+# Arte Deutsche
+domain:arteliveext.akamaized.net
 
-# Kika
+# BR - Bayerischer Rundfunk
+domain:br.de
+
+# Deutschlandradio
+domain:deutschlandfunk.de
+domain:deutschlandfunknova.de
+domain:deutschlandradio.de
+domain:dlf.de
+domain:dradio.de
+
+# funk (ARD & ZDF)
+domain:funk-02.akamaized.net
+domain:funk-02dd.akamaized.net
+domain:play.funk.net
+
+# HR - Hessischer Rundfunk
+domain:hr.de
+domain:hr-rundfunkrat.de
+
+# KiKa (ARD & ZDF) - Kinderkanal
+domain:kika.de
 domain:kikageohls.akamaized.net
+domain:zdf-hls-18.akamaized.net
 
-# MDR Fernsehen
+# MDR Fernsehen - Mitteldeutscher Rundfunk
+domain:mdr.de
 domain:mdrtvsnhls.akamaized.net
+
+# NDR Fernsehen - Norddeutscher Rundfunk
+domain:ndr.de
+
+# Parlamentsfernsehen
+domain:bttv-live-z.r53.cdn.tv1.eu
+domain:cldf-hlsgw.r53.cdn.tv1.eu
+
+# Phoenix (ARD & ZDF)
+domain:phoenix.de
+domain:zdf-hls-19.akamaized.net
+
+# Radio Bremen Fernsehen
+domain:radiobremen.de
+domain:rbhlslive.akamaized.net
+
+# RBB Fernsehen - Rundfunk Berlin-Brandenburg
+domain:antennebrandenburg.de
+domain:fritz.de
+domain:inforadio.de
+domain:radioeins.de
+domain:radiodrei.de
+domain:rbb24.de
+domain:rbb888.de
+domain:rbb-online.de
+domain:rbb-hls-berlin.akamaized.net
+domain:rbb-hls-brandenburg.akamaized.net
+
+# SR Fernsehen - Saarländischer Rundfunk
+domain:sr.de
+domain:sr-mediathek.de
+domain:srde.akamaized.net
+
+# SWR Fernsehen - Südwestrundfunk
+domain:dasding.de
+domain:pdodswr-a.akamaihd.net
+domain:swr.de
+domain:swr3.de
+domain:swrbwd-hls.akamaized.net
+domain:swrrpd-hls.akamaized.net
+
+# Tagesschau (ARD)
+domain:sportschau.de
+domain:tagesschau.akamaized.net
+domain:tagesschau.de
+
+# WDR Fernsehen - Westdeutscher Rundfunk
+domain:wdr.de
+domain:wdrhf.akamaized.net
+domain:wdrlokalzeit.akamaized.net
+
+# ZDF - Zweite Deutsches Fernsehen
+domain:nrodlzdf-a.akamaihd.net
+domain:zdf.de
+domain:zdf-hls-15.akamaized.net
+domain:zdf-hls-16.akamaized.net
+domain:zdf-hls-17.akamaized.net
+#domain:zdf-hls-18.akamaized.net
+#domain:zdf-hls-19.akamaized.net
+domain:zdfvod.akamaized.net
+domain:zdfvod-pckgr.akamaized.net
+domain:zdfvod-rwrtr.akamaized.net
 
 # Nickelodeon Deutschland
 domain:0d26a00dfbb1.airspace-cdn.cbsivideo.com
 domain:unilivemtveu-lh.akamaihd.net
 
 # OK54
-domain:s.ok54.de
-
-# Parlamentsfernsehen
-domain:bttv-live-z.r53.cdn.tv1.eu
-
-# Radio Bremen Fernsehen
-domain:rbhlslive.akamaized.net
-
-# RBB Fernsehen
-domain:rbb-hls-berlin.akamaized.net
-domain:rbb-hls-brandenburg.akamaized.net
-
-# SWR Fernsehen
-domain:swrbwd-hls.akamaized.net
-domain:swrrpd-hls.akamaized.net
-
-# Tagesschau
-#domain:tagesschau.akamaized.net
-
-# Unserding
-domain:srde.akamaized.net
-
-# WDR Fernsehen
-domain:wdrlokalzeit.akamaized.net
+domain:ok54.de
+#domain:s.ok54.de
 
 # Wir24TV
 domain:edge14.vedge.infomaniak.com
-
-# ZDF
-domain:zdf-hls-15.akamaized.net
-domain:zdf-hls-16.akamaized.net
-domain:zdf-hls-17.akamaized.net
-domain:zdf-hls-18.akamaized.net
-domain:zdf-hls-19.akamaized.net

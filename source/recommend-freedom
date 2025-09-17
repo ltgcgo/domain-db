@@ -1,4 +1,11 @@
-# This is a list of domains recommended to be accessed via Freedom.
+# This is a list of domains recommended to be accessed via Freedom, aimed for offloading.
+
+# ARD
+domain:kikaninchen.de
+domain:img.br.de
+domain:images.ndr.de
+domain:images.tagesschau.de
+domain:images.sportschau.de
 
 # Arte
 domain:api-cdn.arte.tv
@@ -27,6 +34,14 @@ domain:ic.c4assets.com
 
 # CyGames
 domain:cygames.jp
+
+# Deutschlandradio
+domain:bilder.deutschlandfunk.de
+domain:static.deutschlandfunknova.de
+
+# Deutsche Welle
+domain:dwamdstream102.akamaized.net
+domain:static.dw.com
 
 # Epic Games
 domain:cdn1.epicgames.com
@@ -123,6 +138,9 @@ domain:images.stv.tv
 # TF1
 domain:photos.tf1.fr
 
+# Telegram
+domain:rtmp.t.me
+
 # Twitch
 domain:assets.twitch.tv
 domain:contribute.live-video.net
@@ -144,3 +162,6 @@ domain:wbx2.com
 # YouTube
 domain:i.ytimg.com
 domain:rtmp.youtube.com
+
+# ZDF
+domain:epg-image.zdf.de
