@@ -14,5 +14,6 @@
 	"no": ["geo-no"],
 	"condensed": ["oisd-basic", "1hosts-lite", "bp-ransomware", "bp-scam"],
 	"recommend-tor": ["recommend-tor"],
-	"recommend-freedom": ["recommend-freedom"]
+	"recommend-freedom": ["recommend-freedom"],
+	"recommend-same-region": ["recommend-same-region"]
 }

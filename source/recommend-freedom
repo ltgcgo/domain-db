@@ -1,4 +1,4 @@
-# This is a list of domains recommended to be accessed via Freedom, aimed for offloading.
+# This is a list of domains recommended to be accessed without additional tunnelling, aimed for offloading.
 
 # ARD
 domain:kikaninchen.de
@@ -76,6 +76,10 @@ domain:gog-cdn-fastly.gog.com
 domain:gog-statics.com
 domain:images.gog.com
 domain:items.gog.com
+
+# Google
+domain:fonts.gstatic.com
+domain:www.gstatic.com
 
 # GREAT! Player
 domain:image-cdn.suggestedtv.com
@@ -167,6 +171,8 @@ domain:wbx2.com
 # YouTube
 domain:i.ytimg.com
 domain:rtmp.youtube.com
+domain:yt3.ggpht.com
+domain:yt3.googleusercontent.com
 
 # ZDF
 domain:epg-image.zdf.de

@@ -1,0 +1,4 @@
+# This is a list of domains recommended to be accessed without additional tunnelling only within the same geographic region and you do not consider vendor IP address tracking as problematic, aimed for offloading.
+
+# YouTube
+domain:googlevideo.com
