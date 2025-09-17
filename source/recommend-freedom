@@ -84,6 +84,11 @@ domain:static.core.one.accedo.tv
 # Hooves
 domain:cdn.hooves.social
 
+# Joyn
+domain:img.joyn.de
+domain:p7s1video.net
+domain:vod-prd.s.joyn.de
+
 # M6+
 domain:assets-bundle.6cloud.fr
 domain:images-fio.6play.fr

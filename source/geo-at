@@ -1,6 +1,11 @@
 # TLD
 #domain:at
 
+# Joyn
+domain:joyn.at
+domain:p7s1-live-003-prod.akamaized.net
+#domain:p7s1video.net
+
 # ORF
 domain:apa.at
 domain:orf.at

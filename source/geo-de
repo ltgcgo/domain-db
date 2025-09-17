@@ -37,7 +37,6 @@ domain:hr-rundfunkrat.de
 # KiKa (ARD & ZDF) - Kinderkanal
 domain:kika.de
 domain:kikageohls.akamaized.net
-domain:zdf-hls-18.akamaized.net
 
 # MDR Fernsehen - Mitteldeutscher Rundfunk
 domain:mdr.de
@@ -105,6 +104,9 @@ domain:zdfvod.akamaized.net
 domain:zdfvod-pckgr.akamaized.net
 domain:zdfvod-rwrtr.akamaized.net
 
+# 7pass.de
+domain:7pass.de
+
 # Nickelodeon Deutschland
 domain:0d26a00dfbb1.airspace-cdn.cbsivideo.com
 domain:unilivemtveu-lh.akamaihd.net
@@ -112,6 +114,18 @@ domain:unilivemtveu-lh.akamaihd.net
 # OK54
 domain:ok54.de
 #domain:s.ok54.de
+
+# Joyn
+domain:4665ab0c18774c4982ebecb52e88691b.mediatailor.eu-central-1.amazonaws.com
+domain:joyn.de
+#domain:live.p7s1video.net
+domain:p7s1-live-009-prod.akamaized.net
+domain:p7s1-live-016-prod.akamaized.net
+#regexp:^p7s1-live-\d\d\d-prod.akamaized.net$
+#domain:p7s1video.net
+
+# Sky Deutschland
+domain:sky.de
 
 # Wir24TV
 domain:edge14.vedge.infomaniak.com

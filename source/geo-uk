@@ -17,7 +17,7 @@ domain:vs-cmaf-pushb-uk-live.akamaized.net
 domain:vs-hls-push-uk-live.akamaized.net
 domain:vs-hls-pushb-uk-live.akamaized.net
 
-# Brightcove Video Cloud
+# Brightcove Video Cloud (Sky?)
 domain:edge.api.brightcove.com
 domain:prod.boltdns.net
 
@@ -56,8 +56,6 @@ domain:stvplc.tv
 domain:stvwest.akamaized.net
 
 # Sky UK (incomplete)
-#domain:edge.api.brightcove.com
-#domain:prod.boltdns.net
 domain:skynews.com
 
 # UKTV
