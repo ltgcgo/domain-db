@@ -15,15 +15,19 @@ domain:static-cdn.arte.tv
 domain:ichef.bbci.co.uk
 domain:static.files.bbci.co.uk
 
-# Blaze
-domain:blazeuk.s3.eu-west-2.amazonaws.com
-
 # BFM Play
 domain:static-cdn.tv.sfr.net
 
+# Blaze
+domain:blazeuk.s3.eu-west-2.amazonaws.com
+
 # BlueSky
 domain:cdn.bsky.app
-#domain:web-cdn.bsky.app
+domain:web-cdn.bsky.app
+
+# Known static CDNs for booru sites
+domain:cdn.ponybooru.org
+domain:derpicdn.net
 
 # Canal+
 domain:bran-media.canalplus.pro
@@ -42,6 +46,12 @@ domain:static.deutschlandfunknova.de
 # Deutsche Welle
 domain:dwamdstream102.akamaized.net
 domain:static.dw.com
+
+# Discord
+domain:cdn.discordapp.com
+domain:images-ext-1.discordapp.net
+domain:media.discordapp.net
+domain:status.discord.com
 
 # Epic Games
 domain:cdn1.epicgames.com
@@ -93,6 +103,9 @@ domain:img.joyn.de
 domain:p7s1video.net
 domain:vod-prd.s.joyn.de
 
+# Localize API
+domain:cdn.localizeapi.com
+
 # M6+
 domain:assets-bundle.6cloud.fr
 domain:images-fio.6play.fr
@@ -119,6 +132,7 @@ domain:static.rtl.fr
 # Reddit
 domain:external-preview.redd.it
 domain:i.redd.it
+domain:media.redgifs.com
 domain:preview.redd.it
 domain:redditmedia.com
 domain:v.redd.it
@@ -167,6 +181,9 @@ domain:prod.infra.webex.com
 domain:reachable.webex.com
 domain:svc.webex.com
 domain:wbx2.com
+
+# Webflow
+domain:cdn.prod.website-files.com
 
 # YouTube
 domain:i.ytimg.com
