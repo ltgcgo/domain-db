@@ -4,7 +4,7 @@ ls -1 | while IFS= read -r list ; do
 	echo "Now validating list: $list"
 	echo "# Generated and sanitized by the Validater." > "$destList"
 	lineNo=0
-	cat "$list" | while IFS= read -r rule ; do
+	(cat "$list" && echo "") | while IFS= read -r rule ; do
 		let lineNo=lineNo+1
 		if [[ "$rule" == " "* ]]; then
 			echo "Rule skipped due to prepended whitespace on line $lineNo."
