@@ -191,9 +191,10 @@ domain:global-contribute.live-video.net
 domain:ttvnw.net
 
 # Twitter
-domain:abs.twimg.com
+#domain:abs.twimg.com
 domain:abs-0.twimg.com
 domain:pbs.twimg.com
+domain:video.twimg.com
 
 # WebEx
 domain:prod.infra.webex.com
