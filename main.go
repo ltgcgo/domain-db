@@ -5,14 +5,13 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"sort"
 	"strconv"
 	"strings"
 
-	"github.com/v2fly/v2ray-core/v4/app/router"
+	router "github.com/v2fly/v2ray-core/v5/app/router/routercommon"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -53,8 +52,8 @@ func (l *ParsedList) toPlainText(listName string) error {
 		// Entry output format is: type:domain.tld:@attr1,@attr2
 		entryBytes = append(entryBytes, []byte(entry.Type+":"+entry.Value+attrString+"\n")...)
 	}
-	if err := ioutil.WriteFile(filepath.Join(*outputDir, listName+".txt"), entryBytes, 0644); err != nil {
-		return fmt.Errorf(err.Error())
+	if err := os.WriteFile(filepath.Join(*outputDir, listName+".txt"), entryBytes, 0644); err != nil {
+		return err
 	}
 	return nil
 }
@@ -67,7 +66,7 @@ func (l *ParsedList) toProto() (*router.GeoSite, error) {
 		switch entry.Type {
 		case "domain":
 			site.Domain = append(site.Domain, &router.Domain{
-				Type:      router.Domain_Domain,
+				Type:      router.Domain_RootDomain,
 				Value:     entry.Value,
 				Attribute: entry.Attrs,
 			})
@@ -383,7 +382,7 @@ func main() {
 		fmt.Println("Failed:", err)
 		os.Exit(1)
 	}
-	if err := ioutil.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
+	if err := os.WriteFile(filepath.Join(*outputDir, *outputName), protoBytes, 0644); err != nil {
 		fmt.Println("Failed: ", err)
 		os.Exit(1)
 	} else {

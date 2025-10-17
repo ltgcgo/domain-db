@@ -21,15 +21,15 @@ jobs:
 
     steps:
       - name: Setup Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v6
         with:
-          go-version: 1.17
+          go-version: 1.24
       - name: Setup Deno
         uses: denoland/setup-deno@v1.1.1
       - name: Set variables
         run: |
           echo "RELEASE_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3+$(date +%d)/10)))z" >> $GITHUB_ENV
-          echo "TAG_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3+$(date +%d)/10)))z" >> $GITHUB_ENV
+          echo "TAG_NAME=$(date +%Y)d$(printf '%02g' $(($(date +%m)*3-3+$(date +%d)/10)))z" >> $GITHUB_ENV
         shell: bash
       - name: Checkout codebase
         uses: actions/checkout@v4
