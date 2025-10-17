@@ -81,6 +81,11 @@ domain:static.lefigaro.fr
 domain:medias.france.tv
 domain:static.francetv.fr
 
+# GitHub
+domain:raw.githubusercontent.com
+domain:private-user-images.githubusercontent.com
+domain:release-assets.githubusercontent.com
+
 # GoG
 domain:gog-cdn-fastly.gog.com
 domain:gog-statics.com
@@ -97,6 +102,10 @@ domain:static.core.one.accedo.tv
 
 # Hooves
 domain:cdn.hooves.social
+
+# Imgur
+domain:cdn.lilsnack.co
+domain:s.imgur.com
 
 # Joyn
 domain:img.joyn.de
@@ -147,6 +156,11 @@ domain:vod-popmax-fastly.simplestreamcdn.com
 # Sky UK
 domain:e3.365dm.com
 
+# Spotify
+#domain:open-exp.spotifycdn.com
+domain:scdn.co
+domain:spotifycdn.com
+
 # Steam
 domain:steamcontent.com
 domain:steamstatic.com
@@ -193,3 +207,6 @@ domain:yt3.googleusercontent.com
 
 # ZDF
 domain:epg-image.zdf.de
+
+# Zendesk
+domain:static.zdassets.com

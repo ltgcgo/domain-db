@@ -16,7 +16,7 @@
 #  |  “No vendors should place tracking in their paid customers. Ever.”  |
 #  |                                                                     |
 #  |---------------------------------------------------------------------|
-#  |                      Last updated: 16 Jul 2025                      |
+#  |                      Last updated: 17 Oct 2025                      |
 #   ---------------------------------------------------------------------
 #
 
@@ -610,9 +610,9 @@ domain:monitoring-us01.mysterium.network
 domain:monitoring-us.mysterium.network
 domain:mumbai1.mysterium.network
 domain:mvp.mysterium.network
-domain:my2.mysterium.network
-domain:my-dev.mysterium.network
-domain:my.mysterium.network
+#domain:my2.mysterium.network
+#domain:my-dev.mysterium.network
+#domain:my.mysterium.network
 domain:mystnodes.mysterium.network
 domain:observer.mysterium.network
 domain:old.mysterium.network
@@ -871,21 +871,21 @@ domain:trust-testnet.mysterium.network
 domain:universe-testnet.mysterium.network
 domain:api.mystnodes.com
 #domain:blog.mystnodes.com
-domain:crk.mystnodes.com
-domain:cs.mystnodes.com
-domain:dev-api.mystnodes.com
-domain:dev.mystnodes.com
+#domain:crk.mystnodes.com
+#domain:cs.mystnodes.com
+#domain:dev-api.mystnodes.com
+#domain:dev.mystnodes.com
 #domain:help.mystnodes.com
-domain:hvl.mystnodes.com
-domain:ktx.mystnodes.com
-domain:mc.mystnodes.com
-domain:my.mystnodes.com
-domain:nbr.mystnodes.com
-domain:nbrtmp.mystnodes.com
-domain:proxy.mystnodes.com
-domain:sed.mystnodes.com
-domain:sidekick-dev.mystnodes.com
-domain:sidekick.mystnodes.com
+#domain:hvl.mystnodes.com
+#domain:ktx.mystnodes.com
+#domain:mc.mystnodes.com
+#domain:my.mystnodes.com
+#domain:nbr.mystnodes.com
+#domain:nbrtmp.mystnodes.com
+#domain:proxy.mystnodes.com
+#domain:sed.mystnodes.com
+#domain:sidekick-dev.mystnodes.com
+#domain:sidekick.mystnodes.com
 domain:testnet.mystnodes.com
 
 # Nodepay
@@ -1172,11 +1172,13 @@ domain:biutuan.com
 domain:bjdqw.com
 domain:borsolo.oss-ap-southeast-1.aliyuncs.com
 domain:gdut-lx.com
+domain:mvk.com
 domain:othertelegram.com
 domain:pangonid.net
 domain:shxytl.com
 domain:songhuashipin.com
 domain:teleccgram.com
+domain:telega.me
 domain:telegc.com
 domain:telegdam.com
 domain:telegdn.com
