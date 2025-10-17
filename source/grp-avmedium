@@ -1,9 +1,15 @@
 # The domains listed above is recommended to be tunnelled to regions without mandated age verification. (e.g. except UK, Wyoming (US), Mississippi (US), South Dakota (US))
 
+# 4chan
+domain:4chan.org
+
 # BlueSky
 domain:bsky.social
 domain:host.bsky.network
 domain:ip.bsky.app
+
+# DesuArchive
+domain:desuarchive.org
 
 # Discord
 domain:discord.com

@@ -1,5 +1,8 @@
 # This is a list of domains recommended to be accessed without additional tunnelling, aimed for offloading.
 
+# 4chan
+domain:4cdn.org
+
 # ARD
 domain:kikaninchen.de
 domain:img.br.de
@@ -38,6 +41,9 @@ domain:ic.c4assets.com
 
 # CyGames
 domain:cygames.jp
+
+# DesuArchive
+domain:desu-usergeneratedcontent.xyz
 
 # Deutschlandradio
 domain:bilder.deutschlandfunk.de
